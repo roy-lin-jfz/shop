@@ -1,0 +1,191 @@
+<include file="Public:head" />
+
+<div style="position:relative; width:1190px; margin:0 auto;"><object width="1190" height="360"><img src="__PUBLIC__/Home/images/banner.jpg" style='margin:0 0 0 250px;' alt="" />
+</object>
+<div class="blank"></div> </div>
+<div class="blank" style="position:relative; width:1190px; margin:0 auto;">
+ <div style=" width:230px; position:absolute;top:-373px; *top:-368px;left:0; height:359px; background:#fff;">
+<h1 style="background:#6aa724; height:27px; line-height:27px; padding-left:10px;"><a href=""><font style="color:#fff; font-size:14px;">所有分类</font></a></h1>
+<div class="mod1 mod2 blank" id="historybox" style="background:#fff;">
+<span class="lb"></span><span class="rb"></span>
+<div class="cagegoryCon clearfix">
+    <foreach name="cattree" item='v'>
+        <if condition="$v.lv eq 0">
+      <dl>
+        <dt><a href="">{$v.cat_name}</a></dt>
+        <dd class="clearfix">
+            <foreach name="cattree" item="s">
+                <if condition="$v[cat_id] eq $s[parent_id]">
+            <p class=""><a href="{:U('Home/cat/cat',array('cat_id'=>$s[cat_id]))}" title="{$s.cat_name}" class="txtdot">{$s.cat_name}</a></p>
+        </if>
+        </foreach>
+
+        </dd>
+      </dl>
+  </if>
+ </foreach>
+</div>
+<div class="blank"></div>
+</div>
+</div></div>
+<div class="block1 clearfix">
+  <div id="pageLeft" class="fr">
+    <div class="w230 blank">
+      <div class="mod1">
+        <h1 class="mod1tit">商店公告</h1>
+        <div class="mod1con shop_notice">
+<h1 class="mod2tit" style="height:0"><a href="" class="more" style="margin-top:3px;">更多</a></h1>
+  <div class="mod2con clearfix">
+    <ul>
+      <li style="width:250px; margin-right:20px; display:inline; height:25px; line-height:25px;" class="fl"><a href="" title="产品质量保证 " class="txtdot">产品质量保证</a></li>
+      <li style="width:250px; margin-right:20px; display:inline; height:25px; line-height:25px;" class="fl"><a href="" title="如何分辨原装电池" class="txtdot">如何分辨原装电池</a></li>
+      <li style="width:250px; margin-right:20px; display:inline; height:25px; line-height:25px;" class="fl"><a href="" title="投诉与建议 " class="txtdot">投诉与建议</a></li>
+      <li style="width:250px; margin-right:20px; display:inline; height:25px; line-height:25px;" class="fl"><a href="" title="选机咨询 " class="txtdot">选机咨询</a></li>
+      <li style="width:250px; margin-right:20px; display:inline; height:25px; line-height:25px;" class="fl"><a href="" title="网站故障报告" class="txtdot">网站故障报告</a></li>
+    <ul>
+    </ul>
+    </ul>
+  </div>
+<script type="text/javascript">divheight("catArticles");</script> </div>
+      </div>
+    </div>
+    <div class="w230" style="">
+<div class="ads">
+<table cellpadding="0" cellspacing="0">
+<tbody><tr><td><a href="" target="_blank"><img src="__PUBLIC__/Home/images/1370400501175025752.jpg" width="230" height="100" border="0"></a></td></tr>
+</tbody></table></div> </div>
+
+    <div class="w230">
+<h1 class="mod2tit" style="background:url(themes/68ecshop_hechafree/images/sdgg.gif) repeat-x; height:27px; color:#000">
+    最近浏览
+</h1>
+
+<div class="mod1 mod2 blank" id="topbox">
+	<span class="lb"></span><span class="rb"></span>
+	 <ul id="top10">
+         <foreach name='his' item="h" key="k">
+            <li>
+			 <div class="first">
+			  <div class="fl">
+				<font style="color:#F00; font-weight:bold"></font> <a href="{:U('Home/goods/goods/',array('goods_id'=>$k))}" title="">{$h['goods_name']}</a>
+				</div>
+				<div class="fr"><b class="f1">￥{$h['shop_price']}元</b></div>
+			 </div>
+			 <!-- <div class="last">
+			  <a href=""><img src="__PUBLIC__/Home/images/3_thumb_G_1368081034405.jpg" alt="" align="left"></a>
+				<b class="f1">1。</b> <a href="" title=""><b>ECSHOP模板中心68ecs...</b></a><br>
+				本店售价：<b class="f1">￥68元</b><br>
+			 </div> -->
+			</li>
+</foreach>
+		 </ul>
+</div>
+</div>
+    <div class="w230">
+<h1 class="mod2tit" style=" position:relative;background:url(themes/68ecshop_hechafree/images/sdgg.gif) repeat-x; height:27px; color:#000">品牌专卖<a href="./brand.php.htm" class="more"><font style="color:#000">全部品牌</font></a></h1>
+<div class="mod1 mod2 blank brandboxs1">
+	<span class="lb"></span><span class="rb"></span>
+	<div class="brandsL clearfix">
+		<a href=""><img src="__PUBLIC__/Home/images/1240803062307572427.gif" alt="诺基亚 (7)"></a>
+    <a href=""><img src="__PUBLIC__/Home/images/1240802922410634065.gif" alt="摩托罗拉 (1)"></a>
+    <a href=""><img src="__PUBLIC__/Home/images/1240803144788047486.gif" alt="多普达 (1)"></a>
+    <a href=""><img src="__PUBLIC__/Home/images/1240803247838195732.gif" alt="飞利浦 (1)"></a>
+    <a href=""><img src="__PUBLIC__/Home/images/1240803352280856940.gif" alt="夏新 (1)"></a>
+    <a href=""><img src="__PUBLIC__/Home/images/1240803412367015368.gif" alt="三星 (2)"></a>
+    <a href=""><img src="__PUBLIC__/Home/images/1240803482283160654.gif" alt="索爱 (2)"></a>
+	</div>
+</div>
+<!--<div class="brandboxs blank">
+</div>
+-->
+ </div>
+  <div class="w230 ">
+    <style type="text/css">
+      .vote{
+      border-bottom:1px dashed #ccc;
+      margin-bottom:8px;
+      padding-bottom:5px;
+      }
+      .vote form{display:inline;}
+      .vote form a{text-decoration:underline;}
+    </style>
+  <h1 style="background:url(themes/68ecshop_hechafree/images/sdgg.gif) repeat-x; height:27px; line-height:27px; padding-left:10px; font-size:14px; color:#000">发货查询</h1>
+    <div class="mod1 mod2 blank" id="invoice">
+  		<div class="mod2con">
+    	 	<div class="vote">
+        <font class="f2">订单号</font> 2009061909851<br>
+        <font class="f2">发货单</font> 232421<br>
+    	  </div>
+       	<div class="vote">
+        <font class="f2">订单号</font> 2009052224892<br>
+        <font class="f2">发货单</font> 1123344<br>
+    	  </div>
+     	</div>
+    </div>
+  </div>
+  </div>
+    <div id="pageRight" class="fl clearfix">
+    <div class="blank">
+<div style="clearfix">
+<div class="more clearfix best" id="itemHot">
+<h1 class="tit">热销商品</h1>
+<h1 style="border-bottom:2px solid #E3E3E3;height:25px; line-height:25px;">
+</h1>
+</div>
+</div>
+<div class="recommendContent entry-content" id="show_hot_area">
+        <foreach name="hot" item='h'>
+      <div class="goodsbox1">
+				<div class="imgbox1"><a href="{:U('Home/goods/goods',array('goods_id'=>$h[goods_id]))}"><img src="__ROOT__{$h[thumb_img]}" alt="{$h['goods_name']}"></a></div>
+    			 <a href="{:U('Home/goods/goods',array('goods_id'=>$h[goods_id]))}" title="{$h['goods_name']}">{$h['goods_name']}</a><br>
+              <font class="goodspice market">￥{$h[market_price]}元</font>
+			 			 <b class="f1">￥{$h[shop_price]}元</b><br>
+			</div>
+        </foreach>
+
+</div>
+</div>
+    <div class="blank">
+<div style=" clearfix">
+<div class="more clearfix best" id="itemBest">
+<h1 class="tit">精品推荐</h1>
+<h1 style="border-bottom:2px solid #E3E3E3;height:25px; line-height:25px;">
+</h1>
+</div>
+</div>
+<div class="recommendContent entry-content" id="show_best_area">
+    <foreach name='best' item='b'>
+      <div class="goodsbox1">
+				<div class="imgbox1"><a href="{:U('Home/goods/goods',array('goods_id'=>$b[goods_id]))}"><img src="__ROOT__{$b[thumb_img]}" alt="{$b[goods_name]}"></a></div>
+			 <a href="{:U('Home/goods/goods',array('goods_id'=>$b[goods_id]))}" title="{$b[goods_name]}">{$b[goods_name]}</a><br>
+              <font class="goodspice market">￥{$b[market_price]}元</font>
+			 			 <b class="f1">￥{$b[shop_price]}元</b><br>
+			</div>
+    </foreach> 
+</div>
+</div>
+    <div class="">
+<div style=" clearfix">
+<div class="more clearfix best" id="itemNew">
+<h1 class="tit">新品上市</h1>
+<h1 style="border-bottom:2px solid #E3E3E3;height:25px; line-height:25px;">
+</h1>
+</div>
+</div>
+<div class="recommendContent entry-content" id="show_new_area">
+    <foreach name='new' item='n'>
+      <div class="goodsbox1">
+				<div class="imgbox1"><a href="{:U('Home/goods/goods',array('goods_id'=>$n[goods_id]))}"><img src="__ROOT__{$n[thumb_img]}" alt="{$n[goods_name]}"></a></div>
+			 <a href="{:U('Home/goods/goods',array('goods_id'=>$n[goods_id]))}" title="{$n[goods_name]}">{$n[goods_name]}</a><br>
+              <font class="goodspice market">￥{$n[market_price]}元</font>
+			 			 <b class="f1">￥{$n[shop_price]}元</b><br>
+			</div>
+    </foreach>  
+</div>
+</div>
+ </div>
+</div>
+<div style=" height:1px; line-height:1px; clear:both;"></div>
+
+<include file="Public:foot"/>
+

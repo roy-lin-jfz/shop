@@ -1,0 +1,70 @@
+<include file="Public:head" />
+
+<div class="blank"></div>
+<div class="container" style=" width:980px; margin:0 auto; margin-bottom:0px;">
+  <div class="reg clearfix ">
+    <div class="us_login" style="float:left;">
+      <div class="mbox" style="width:485px; height:430px; ">
+        <div class="login_tit blank" style="margin-top:15px;"><strong style="font-size:18px;">登录</strong></div>
+        <div class="contentNew">
+          <div class="l_box">
+            <p>已注册用户请从这里登录</p>
+            <form action="" method="post" name="loginForm" id="loginForm">
+              <label> <span>用户名</span>
+                <input type="text" class="inputBg" name="username" size="25">
+              </label>
+              <label> <span>密码</span>
+                <input type="password" class="inputBg" name="password" size="25">
+              </label>
+              <label> <span>请输入验证码</span>
+                <input type="text" class="" name="yzm" size="25">
+              </label>
+              <div align="center">
+                  <a href="{:U('Home/user/login')}">
+                      <img src="{:U('Home/user/yzm')}" alt="" width="200" height="60" />
+                  </a>
+              </div>
+                <div>
+
+                </div>
+                <div class="btns">
+                <input type="submit" value="" class="btn_submit_b">
+                <!-- <input type="hidden" name="act" value="act_login">
+                <input type="hidden" name="back_act" value="user.php"> -->
+                <p class="forgot1"><a href=''>密码问题找回密码</a></p>
+              </div>
+              <div class="tempotherLoginTail"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="us_login" style="float:left;">
+      <div class="mbox" style="width:485px; height:430px;">
+        <div class="reg2_tit blank" style="width:485px; margin-top:15px;"><strong style="font-size:18px;">注册</strong> &nbsp;&nbsp;&nbsp;&nbsp; 新用户？ 立即注册，享受多重惊喜。</div>
+      <div class="mbox" style="width:488px; height:370px; border:none;">
+				<div class="title">
+				</div>
+				<div class="contentNew">
+					<div class="l_box">
+						<p><strong>如果您不是会员，请注册</strong></p>
+					    <p><strong class="f4">友情提示：</strong></p>
+              <p>不注册为会员也可在本店购买商品</p>
+              <p>但注册之后您可以：</p>
+					    <p>1. 保存您的个人资料</p>
+					    <p>2. 收藏您关注的商品</p>
+					    <p>3. 享受会员积分制度</p>
+					    <p>4. 订阅本店商品信息</p>
+					    <p><a href="{:U('Home/user/reg')}"><img src="__PUBLIC__/Home/images/bnt_ur_regh.gif"></a></p>
+				    </div>
+				</div>
+			</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container" style=" width:980px; margin:0 auto; ">
+</div>
+
+<include file="Public:foot" /> 

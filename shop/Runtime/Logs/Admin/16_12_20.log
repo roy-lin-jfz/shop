@@ -1,0 +1,1035 @@
+[ 2016-12-20T11:09:44+08:00 ] 127.0.0.1 /bool/shop/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.215012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.216012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-20T11:09:46+08:00 ] 127.0.0.1 /bool/shop/index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.151009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-12-20T11:09:46+08:00 ] 127.0.0.1 /bool/shop/index.php/Admin/Index/images/top_loader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-20T11:09:46+08:00 ] 127.0.0.1 /bool/shop/index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.287017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.287017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-20T11:09:46+08:00 ] 127.0.0.1 /bool/shop/index.php/Admin/Index/drag.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-12-20T11:09:46+08:00 ] 127.0.0.1 /bool/shop/index.php/Admin/Index/images/menu_minus.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-20T11:09:46+08:00 ] 127.0.0.1 /bool/shop/index.php/Admin/Index/images/menu_arrow.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-20T11:09:46+08:00 ] 127.0.0.1 /bool/shop/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-20T11:09:49+08:00 ] 127.0.0.1 /bool/shop/index.php/admin/goods/goodslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.4120s ]
+NOTIC: [8] Undefined variable: User E:\php\amp\www\bool\shop\Admin\Controller\GoodsController.class.php 第 60 行.
+
+[ 2016-12-20T11:10:24+08:00 ] 127.0.0.1 /bool/shop/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-20T11:10:24+08:00 ] 127.0.0.1 /bool/shop/index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-20T11:10:24+08:00 ] 127.0.0.1 /bool/shop/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-20T11:10:24+08:00 ] 127.0.0.1 /bool/shop/index.php/Admin/Index/images/top_loader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-12-20T11:10:24+08:00 ] 127.0.0.1 /bool/shop/index.php/Admin/Index/drag.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-20T11:10:24+08:00 ] 127.0.0.1 /bool/shop/index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-20T11:10:24+08:00 ] 127.0.0.1 /bool/shop/index.php/Admin/Index/images/menu_minus.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-20T11:10:24+08:00 ] 127.0.0.1 /bool/shop/index.php/Admin/Index/images/menu_arrow.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-20T11:10:25+08:00 ] 127.0.0.1 /bool/shop/index.php/admin/goods/goodsadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0740s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-12-20T11:10:26+08:00 ] 127.0.0.1 /bool/shop/index.php/admin/goods/goodslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` ORDER BY goods_id LIMIT 0,10   [ RunTime:0.0280s ]
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-20T11:10:34+08:00 ] 127.0.0.1 /bool/shop/index.php/Admin/Goods/goodslist/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` ORDER BY goods_id LIMIT 10,10   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-20T11:10:37+08:00 ] 127.0.0.1 /bool/shop/index.php/Admin/Goods/goodslist/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` ORDER BY goods_id LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-12-20T13:29:29+08:00 ] 127.0.0.1 /bool/shop/index.php/Admin/Goods/goodslist/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` ORDER BY goods_id LIMIT 10,10   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-20T13:30:26+08:00 ] 127.0.0.1 /bool/shop/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-20T13:30:26+08:00 ] 127.0.0.1 /bool/shop/index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-20T13:30:26+08:00 ] 127.0.0.1 /bool/shop/index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-20T13:30:26+08:00 ] 127.0.0.1 /bool/shop/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-12-20T13:30:26+08:00 ] 127.0.0.1 /bool/shop/index.php/Admin/Index/drag.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-20T13:30:26+08:00 ] 127.0.0.1 /bool/shop/index.php/Admin/Index/images/top_loader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-12-20T13:30:27+08:00 ] 127.0.0.1 /bool/shop/index.php/Admin/Index/images/menu_minus.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-20T13:30:27+08:00 ] 127.0.0.1 /bool/shop/index.php/Admin/Index/images/menu_arrow.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-20T13:30:28+08:00 ] 127.0.0.1 /bool/shop/index.php/admin/goods/goodsadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-20T13:30:29+08:00 ] 127.0.0.1 /bool/shop/index.php/admin/goods/goodslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` ORDER BY goods_id LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-20T13:30:34+08:00 ] 127.0.0.1 /bool/shop/index.php/Admin/Goods/goodslist/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` ORDER BY goods_id LIMIT 10,10   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' E:\php\amp\www\bool\shop\Common\Common\function.php 第 41 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_best - assumed 'is_best' E:\php\amp\www\bool\shop\Common\Common\function.php 第 42 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_new - assumed 'is_new' E:\php\amp\www\bool\shop\Common\Common\function.php 第 43 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+NOTIC: [8] Use of undefined constant is_hot - assumed 'is_hot' E:\php\amp\www\bool\shop\Common\Common\function.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-20T14:25:49+08:00 ] 127.0.0.1 /bool/shop/index.php/Admin/cat/cat/cat_id/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:cat
+
+[ 2016-12-20T14:25:53+08:00 ] 127.0.0.1 /bool/shop/index.php/Admin/cat/cat/cat_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:cat
+
+[ 2016-12-20T14:26:01+08:00 ] 127.0.0.1 /bool/shop/index.php/Admin/cat/cat/cat_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:cat
+
+[ 2016-12-20T14:26:08+08:00 ] 127.0.0.1 /bool/shop/index.php/Admin/cat/cat/cat_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:cat
+

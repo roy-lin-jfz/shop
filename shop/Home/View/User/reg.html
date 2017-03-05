@@ -1,0 +1,69 @@
+<include file="Public:head" />
+
+<div class="blank"></div>
+<div class="container" style=" width:980px; margin:0 auto; ">
+    <div class="us_login" style="border:1px solid #dbdee3; width:978px; ">
+    <div class="reg2_tit blank" style=" margin-top:15px; margin-left:50px;"><strong style="font-size:18px;">注册</strong> &nbsp;&nbsp;&nbsp;&nbsp; 新用户？ 立即注册，享受多重惊喜。</div>
+      <div class="mbox" style="border:0px;">
+        <div class="blank1" style="margin-top:15px;"></div>
+        <form action="{:U('Home/user/reg')}" method="post" name="formUser" >
+          <table width="100%" border="0" align="left" cellpadding="5" cellspacing="3">
+            <tbody><tr>
+              <td width="15%" align="right">用户名</td>
+              <td width="85%"><input name="username" type="text" size="25" id="username" class="inputBg">
+              <span id="username_notice" style="color:#FF0000"> *</span></td>
+            </tr>
+            <tr>
+              <td align="right">email</td>
+              <td><input name="email" type="text" size="25" id="email" class="inputBg">
+              <span id="email_notice" style="color:#FF0000"> *</span></td>
+            </tr>
+            <tr>
+              <td align="right">密码</td>
+              <td><input name="password" type="password" id="password1" class="inputBg" style="width:179px;">
+                <span style="color:#FF0000" id="password_notice"> *</span></td>
+            </tr>
+           <!--  <tr>
+              <td align="right">密码强度</td>
+              <td><table width="145" border="0" cellspacing="0" cellpadding="1">
+                <tbody>
+                  <tr align="center">
+                    <td width="33%" id="pwd_lower">弱</td>
+                    <td width="33%" id="pwd_middle">中</td>
+                    <td width="33%" id="pwd_high">强</td>
+                  </tr>
+                </tbody></table></td>
+            </tr> -->
+            <tr>
+              <td align="right">确认密码</td>
+              <td><input name="repwd" type="password" id="conform_password" class="inputBg" style="width:179px;">
+              <span style="color:#FF0000" id="conform_password_notice"> *</span></td>
+            </tr>
+            <!-- <tr>
+              <td>&nbsp;</td>
+              <td><label>
+                  <input name="agreement" type="checkbox" value="1" checked="checked">
+                  我已看过并接受《<a  style="color:blue" target="_blank">用户协议</a>》</label></td>
+            </tr> -->
+            <tr>
+              <td>&nbsp;</td>
+              <td align="left"><div class="btns">
+                <input class="btn_submit" type="submit" value="">
+                    <!-- <input name="act" type="hidden" value="act_register">
+                  <input type="hidden" name="back_act" value=""> -->
+                </div></td>
+            </tr>
+            <tr>
+              <td colspan="2">&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td class="actionSub"><a>您忘记密码了吗？</a></td>
+            </tr>
+          </tbody></table>
+        </form>
+      </div>
+    </div>
+</div>
+
+<include file="Public:foot" />
