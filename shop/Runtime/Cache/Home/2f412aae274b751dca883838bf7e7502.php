@@ -9,7 +9,7 @@
 <title>ECSHOP演示站 - </title>
 <link rel="shortcut icon" href="./favicon.ico">
 <link rel="icon" href="./animated_favicon.gif" type="image/gif">
-<link href="/shop/Public/Home/css/style.css" rel="stylesheet" type="text/css">
+<link href="/Public/Home/css/style.css" rel="stylesheet" type="text/css">
 <link rel="alternate" type="application/rss+xml" title="RSS|ECSHOP演示站 - " href="./feed.php">
 </head>
 <body>
@@ -26,21 +26,21 @@
 
     </font></div>
       <ul class="sitelinks">
-        <li><a href="./flow.php.htm"></a><a href="<?php echo U('Home/order/checkout');?>" title="查看购物车">购物车有 
+        <a href="./flow.php.htm"></a><a href="<?php echo U('Home/order/checkout');?>" title="查看购物车">购物车有
         <?php if(defined_gwc()): echo (cookie('gwc_num')); ?>
         <?php else: ?>0<?php endif; ?>
-        件</a></li>
-        <li> <a href="<?php echo U('Home/order/checkout');?>">查看购物车</a> </li>
+        件</a>
+         <a href="<?php echo U('Home/order/checkout');?>">查看购物车</a>
         <!-- <li style=" margin-top:0px;*margin-top:-2px;">|</li> -->
         <!-- <li> <a href="./pick_out.php.htm">选购中心</a> </li> -->
-        <li style=" margin-top:0px;*margin-top:-2px;">|</li>
-        <li> <a href="" onclick="window.alert('请联系客服电话：400-8899-379')">帮助中心</a> </li>
+        |
+        > <a href="" onclick="window.alert('请联系客服电话：400-8899-379')">帮助中心</a>
       </ul>
   </div></div>
 <div class="page-header clearfix">
   <div class="block1 clearfix" style="position:relative;">
     <div class="logo fl">
-        <a href="<?php echo U('/');?>" title=""><img src="/shop/Public/Home/images/logo.gif" width="311" height="55" alt=""></a></div>
+        <a href="<?php echo U('/');?>" title=""><img src="/Public/Home/images/logo.gif" width="311" height="55" alt=""></a></div>
     <div class="btMap">
       <div class="search ">
         <form id="searchForm" name="searchForm" method="get" action="<?php echo U('Home/cat/select');?>">
@@ -78,7 +78,7 @@
 
 
 
-<div style="position:relative; width:1190px; margin:0 auto;"><object width="1190" height="360"><img src="/shop/Public/Home/images/banner.jpg" style='margin:0 0 0 250px;' alt="" />
+<div style="position:relative; width:1190px; margin:0 auto;"><object width="1190" height="360"><img src="/Public/Home/images/banner.jpg" style='margin:0 0 0 250px;' alt="" />
 </object>
 <div class="blank"></div> </div>
 <div class="blank" style="position:relative; width:1190px; margin:0 auto;">
@@ -122,7 +122,7 @@
     <div class="w230" style="">
 <div class="ads">
 <table cellpadding="0" cellspacing="0">
-<tbody><tr><td><a href="" target="_blank"><img src="/shop/Public/Home/images/1370400501175025752.jpg" width="230" height="100" border="0"></a></td></tr>
+<tbody><tr><td><a href="" target="_blank"><img src="/Public/Home/images/1370400501175025752.jpg" width="230" height="100" border="0"></a></td></tr>
 </tbody></table></div> </div>
 
     <div class="w230">
@@ -141,7 +141,7 @@
 				<div class="fr"><b class="f1">￥<?php echo ($h['shop_price']); ?>元</b></div>
 			 </div>
 			 <!-- <div class="last">
-			  <a href=""><img src="/shop/Public/Home/images/3_thumb_G_1368081034405.jpg" alt="" align="left"></a>
+			  <a href=""><img src="/Public/Home/images/3_thumb_G_1368081034405.jpg" alt="" align="left"></a>
 				<b class="f1">1。</b> <a href="" title=""><b>ECSHOP模板中心68ecs...</b></a><br>
 				本店售价：<b class="f1">￥68元</b><br>
 			 </div> -->
@@ -154,13 +154,13 @@
 <div class="mod1 mod2 blank brandboxs1">
 	<span class="lb"></span><span class="rb"></span>
 	<div class="brandsL clearfix">
-		<a href=""><img src="/shop/Public/Home/images/1240803062307572427.gif" alt="诺基亚 (7)"></a>
-    <a href=""><img src="/shop/Public/Home/images/1240802922410634065.gif" alt="摩托罗拉 (1)"></a>
-    <a href=""><img src="/shop/Public/Home/images/1240803144788047486.gif" alt="多普达 (1)"></a>
-    <a href=""><img src="/shop/Public/Home/images/1240803247838195732.gif" alt="飞利浦 (1)"></a>
-    <a href=""><img src="/shop/Public/Home/images/1240803352280856940.gif" alt="夏新 (1)"></a>
-    <a href=""><img src="/shop/Public/Home/images/1240803412367015368.gif" alt="三星 (2)"></a>
-    <a href=""><img src="/shop/Public/Home/images/1240803482283160654.gif" alt="索爱 (2)"></a>
+		<a href=""><img src="/Public/Home/images/1240803062307572427.gif" alt="诺基亚 (7)"></a>
+    <a href=""><img src="/Public/Home/images/1240802922410634065.gif" alt="摩托罗拉 (1)"></a>
+    <a href=""><img src="/Public/Home/images/1240803144788047486.gif" alt="多普达 (1)"></a>
+    <a href=""><img src="/Public/Home/images/1240803247838195732.gif" alt="飞利浦 (1)"></a>
+    <a href=""><img src="/Public/Home/images/1240803352280856940.gif" alt="夏新 (1)"></a>
+    <a href=""><img src="/Public/Home/images/1240803412367015368.gif" alt="三星 (2)"></a>
+    <a href=""><img src="/Public/Home/images/1240803482283160654.gif" alt="索爱 (2)"></a>
 	</div>
 </div>
 <!--<div class="brandboxs blank">
@@ -203,7 +203,7 @@
 </div>
 <div class="recommendContent entry-content" id="show_hot_area">
         <?php if(is_array($hot)): foreach($hot as $key=>$h): ?><div class="goodsbox1">
-				<div class="imgbox1"><a href="<?php echo U('Home/goods/goods',array('goods_id'=>$h[goods_id]));?>"><img src="/shop<?php echo ($h[thumb_img]); ?>" alt="<?php echo ($h['goods_name']); ?>"></a></div>
+				<div class="imgbox1"><a href="<?php echo U('Home/goods/goods',array('goods_id'=>$h[goods_id]));?>"><img src="<?php echo ($h[thumb_img]); ?>" alt="<?php echo ($h['goods_name']); ?>"></a></div>
     			 <a href="<?php echo U('Home/goods/goods',array('goods_id'=>$h[goods_id]));?>" title="<?php echo ($h['goods_name']); ?>"><?php echo ($h['goods_name']); ?></a><br>
               <font class="goodspice market">￥<?php echo ($h[market_price]); ?>元</font>
 			 			 <b class="f1">￥<?php echo ($h[shop_price]); ?>元</b><br>
@@ -221,7 +221,7 @@
 </div>
 <div class="recommendContent entry-content" id="show_best_area">
     <?php if(is_array($best)): foreach($best as $key=>$b): ?><div class="goodsbox1">
-				<div class="imgbox1"><a href="<?php echo U('Home/goods/goods',array('goods_id'=>$b[goods_id]));?>"><img src="/shop<?php echo ($b[thumb_img]); ?>" alt="<?php echo ($b[goods_name]); ?>"></a></div>
+				<div class="imgbox1"><a href="<?php echo U('Home/goods/goods',array('goods_id'=>$b[goods_id]));?>"><img src="<?php echo ($b[thumb_img]); ?>" alt="<?php echo ($b[goods_name]); ?>"></a></div>
 			 <a href="<?php echo U('Home/goods/goods',array('goods_id'=>$b[goods_id]));?>" title="<?php echo ($b[goods_name]); ?>"><?php echo ($b[goods_name]); ?></a><br>
               <font class="goodspice market">￥<?php echo ($b[market_price]); ?>元</font>
 			 			 <b class="f1">￥<?php echo ($b[shop_price]); ?>元</b><br>
@@ -238,7 +238,7 @@
 </div>
 <div class="recommendContent entry-content" id="show_new_area">
     <?php if(is_array($new)): foreach($new as $key=>$n): ?><div class="goodsbox1">
-				<div class="imgbox1"><a href="<?php echo U('Home/goods/goods',array('goods_id'=>$n[goods_id]));?>"><img src="/shop<?php echo ($n[thumb_img]); ?>" alt="<?php echo ($n[goods_name]); ?>"></a></div>
+				<div class="imgbox1"><a href="<?php echo U('Home/goods/goods',array('goods_id'=>$n[goods_id]));?>"><img src="<?php echo ($n[thumb_img]); ?>" alt="<?php echo ($n[goods_name]); ?>"></a></div>
 			 <a href="<?php echo U('Home/goods/goods',array('goods_id'=>$n[goods_id]));?>" title="<?php echo ($n[goods_name]); ?>"><?php echo ($n[goods_name]); ?></a><br>
               <font class="goodspice market">￥<?php echo ($n[market_price]); ?>元</font>
 			 			 <b class="f1">￥<?php echo ($n[shop_price]); ?>元</b><br>
@@ -303,7 +303,7 @@
     </div>
   </div>
 </div>
-<div class="block tc" style=""> <img src="/shop/Public/Home/images/serviceImg1.jpg"> </div>
+<div class="block tc" style=""> <img src="/Public/Home/images/serviceImg1.jpg"> </div>
 <div class="block tc" style="margin-bottom:20px;">
   <a href="">免责条款</a>|
   <a href="">隐私保护</a>|
