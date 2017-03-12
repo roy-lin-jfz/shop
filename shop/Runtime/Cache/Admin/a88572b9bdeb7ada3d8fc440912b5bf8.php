@@ -3,14 +3,16 @@
 <head>
 <title>首望商城管理中心</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<frameset rows="76,*" framespacing="0" border="0">
-  <frame src="/bool/shop/index.php/Admin/Index/top.html" id="header-frame" name="header-frame" frameborder="no" scrolling="no">
+<frameset rows="76,*" framespacing="0" border="0" id="all">
+  <frame src="/index.php/Admin/Index/top.html" id="header-frame" name="header-frame" frameborder="no" scrolling="no">
+  <div>
   <frameset cols="180, 10, *" framespacing="0" border="0" id="frame-body">
-    <frame src="/bool/shop/index.php/Admin/Index/left.html" id="menu-frame" name="menu-frame" frameborder="no" scrolling="yes">
-    <frame src="/bool/shop/index.php/Admin/Index/drag.html" id="drag-frame" name="drag-frame" frameborder="no" scrolling="no">
+    <frame src="/index.php/Admin/Index/left.html" id="menu-frame" name="menu-frame" frameborder="no" scrolling="yes">
+    <frame src="/index.php/Admin/Index/drag.html" id="drag-frame" name="drag-frame" frameborder="no" scrolling="no">
 
-    <frame src="/bool/shop/index.php/Admin/Index/main.html" id="main-frame" name="main-frame" frameborder="no" scrolling="yes">
+    <frame src="/index.php/Admin/Index/main.html" id="main-frame" name="main-frame" frameborder="no" scrolling="yes">
   </frameset>
+  </div>
 </frameset>
 </head>
 <body>

@@ -97,6 +97,11 @@
   color: #000;
   background:#80BDCB;
 }
+#dengrutai {
+  font-size:16px;
+  float:right;
+}
+
 
 #submenu-div a.fix-submenu{clear:both; margin-left:5px; padding:1px 5px; *padding:3px 5px 5px; background:#DDEEF2; color:#278296;}
 #submenu-div a.fix-submenu:hover{padding:1px 5px; *padding:3px 5px 5px; background:#FFF; color:#278296;}
@@ -107,43 +112,45 @@
 <body>
 <div id="header-div">
 
+
   <div id="logo-div" style="bgcolor:#000000;"><img src="__PUBLIC__/admin/images/ecshop_logo.gif" alt="ECSHOP - power for e-commerce" /></div>
   <div id="license-div" style="bgcolor:#000000;"></div>
   <div id="submenu-div">
     <ul>
-      <li><a href="#" target="main-frame">关于 ECSHOP</a></li>
-      <li><a href="#">帮助</a></li>
-      <li><a href="#">计算器</a></li>
+      <div id="dengrutai"><font id="ECS_MEMBERZONE">
+        <if condition="adminche()">
+          您好:<font color="red">
+          <b>{$Think.cookie.adminname}</b></font>&nbsp;欢迎登入购物管理系统！
+          | <a href="{:U('Admin/admin/logout')}" target="all-frame">退出</a>
 
-      <li><a href="#" target="_blank">查看网店</a></li>
-      <li><a href="#" target="main-frame">管理员留言</a></li>
-      <li><a href="#" target="main-frame">个人设置</a></li>
-      <li><a href="#">刷新</a></li>
-      <li><a href="#"  onclick="ShowToDoList()">记事本</a></li>
-      <li style="border-left:none;"><a href="#" target="main-frame">开店向导</a></li>
+        </if>
+      </font>
+      </div>
 
     </ul>
-    <div id="send_info" style="padding: 5px 10px 0 0; clear:right;text-align: right; color: #FF9900;width:40%;float: right;">
-            <a href="#" target="main-frame" class="fix-submenu">清除缓存</a>
-      <a href="#" target="_top" class="fix-submenu">退出</a>
-    </div>
+
+
+    <!--<div id="send_info" style="padding: 5px 10px 0 0; clear:right;text-align: right; color: #FF9900;width:40%;float: right;">-->
+            <!--<a href="#" target="main-frame" class="fix-submenu">清除缓存</a>-->
+      <!--<a href="#" target="_top" class="fix-submenu">退出</a>-->
+    <!--</div>-->
         <div id="load-div" style="padding: 5px 10px 0 0; text-align: right; color: #FF9900; display: none;width:40%;float:right;"><img src="./images/top_loader.gif" width="16" height="16" alt="正在处理您的请求..." style="vertical-align: middle" /> 正在处理您的请求...</div>
   </div>
 
 </div>
 <div id="menu-div">
-  <ul>
-    <li class="fix-spacel">&nbsp;</li>
-    <li><a href="#" target="main-frame">起始页</a></li>
-    <li><a href="#" target="main-frame">设置导航栏</a></li>
-        <li><a href="#" target="main-frame">商品列表</a></li>
-        <li><a href="#" target="main-frame">订单列表</a></li>
+  <!--<ul>-->
+    <!--<li class="fix-spacel">&nbsp;</li>-->
+    <!--<li><a href="#" target="main-frame">起始页</a></li>-->
+    <!--<li><a href="#" target="main-frame">设置导航栏</a></li>-->
+        <!--<li><a href="#" target="main-frame">商品列表</a></li>-->
+        <!--<li><a href="#" target="main-frame">订单列表</a></li>-->
 
-        <li><a href="#" target="main-frame">用户评论</a></li>
-        <li><a href="#" target="main-frame">会员列表</a></li>
-        <li><a href="#" target="main-frame">商店设置</a></li>
-        <li class="fix-spacer">&nbsp;</li>
-  </ul>
+        <!--<li><a href="#" target="main-frame">用户评论</a></li>-->
+        <!--<li><a href="#" target="main-frame">会员列表</a></li>-->
+        <!--<li><a href="#" target="main-frame">商店设置</a></li>-->
+        <!--<li class="fix-spacer">&nbsp;</li>-->
+  <!--</ul>-->
   <br class="clear" />
 </div>
 </body>

@@ -29,12 +29,12 @@
         <a href="./flow.php.htm"></a><a href="<?php echo U('Home/order/checkout');?>" title="查看购物车">购物车有
         <?php if(defined_gwc()): echo (cookie('gwc_num')); ?>
         <?php else: ?>0<?php endif; ?>
-        件</a>
+        件</a> |
          <a href="<?php echo U('Home/order/checkout');?>">查看购物车</a>
         <!-- <li style=" margin-top:0px;*margin-top:-2px;">|</li> -->
         <!-- <li> <a href="./pick_out.php.htm">选购中心</a> </li> -->
         |
-        > <a href="" onclick="window.alert('请联系客服电话：400-8899-379')">帮助中心</a>
+        <a href="" onclick="window.alert('请联系客服电话：400-8899-379')">帮助中心</a>
       </ul>
   </div></div>
 <div class="page-header clearfix">

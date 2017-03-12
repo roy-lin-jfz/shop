@@ -4,8 +4,8 @@
 <title>ECSHOP 管理中心 - 商品列表 </title>
 <meta name="robots" c>
 <meta http-equiv="Content-Type" c />
-<link href="/bool/shop/Public/Admin/css/general.css" rel="stylesheet" type="text/css" />
-<link href="/bool/shop/Public/Admin/css/main.css" rel="stylesheet" type="text/css" />
+<link href="/Public/Admin/css/general.css" rel="stylesheet" type="text/css" />
+<link href="/Public/Admin/css/main.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 
@@ -18,7 +18,7 @@
 <div class="form-div">
 
   <form action="" name="searchForm">
-    <img src="/bool/shop/Public/Admin/images/icon_search.gif" width="26" height="22" border="0" alt="SEARCH" />
+    <img src="/Public/Admin/images/icon_search.gif" width="26" height="22" border="0" alt="SEARCH" />
 
     <select name="cat_id"><option value="0">所有分类</option><option value="1" >手机类型</option><option value="4" >&nbsp;&nbsp;&nbsp;&nbsp;3G手机</option><option value="5" >&nbsp;&nbsp;&nbsp;&nbsp;双模手机</option><option value="2" >&nbsp;&nbsp;&nbsp;&nbsp;CDMA手机</option><option value="3" >&nbsp;&nbsp;&nbsp;&nbsp;GSM手机</option><option value="12" >充值卡</option><option value="14" >&nbsp;&nbsp;&nbsp;&nbsp;移动手机充值卡</option><option value="15" >&nbsp;&nbsp;&nbsp;&nbsp;联通手机充值卡</option><option value="13" >&nbsp;&nbsp;&nbsp;&nbsp;小灵通/固话充值卡</option><option value="6" >手机配件</option><option value="11" >&nbsp;&nbsp;&nbsp;&nbsp;读卡器和内存卡</option><option value="7" >&nbsp;&nbsp;&nbsp;&nbsp;充电器</option><option value="8" >&nbsp;&nbsp;&nbsp;&nbsp;耳机</option><option value="9" >&nbsp;&nbsp;&nbsp;&nbsp;电池</option></select>
 
@@ -45,7 +45,7 @@
   <tr>
     <th>
       <input onclick='listTable.selectAll(this, "checkboxes")' type="checkbox" />
-      <a href="#">编号</a><img src="/bool/shop/Public/Admin/images/sort_desc.gif"/>    </th>
+      <a href="#">编号</a><img src="/Public/Admin/images/sort_desc.gif"/>    </th>
 
     <th><a href="#">商品名称</a></th>
     <th><a href="#">货号</a></th>
@@ -66,19 +66,19 @@
     <td><span ><?php echo ($v["goods_sn"]); ?></span></td>
     <td align="right"><span ><?php echo ($v["shop_price"]); ?>
     </span></td>
-    <td align="center"><img src="/bool/shop/Public/Admin/images/<?php echo ($v["is_on_sale"]); ?>.gif"  /></td>
-    <td align="center"><img src="/bool/shop/Public/Admin/images/<?php echo ($v["is_best"]); ?>.gif"  /></td>
-    <td align="center"><img src="/bool/shop/Public/Admin/images/<?php echo ($v["is_new"]); ?>.gif"  /></td>
-    <td align="center"><img src="/bool/shop/Public/Admin/images/<?php echo ($v["is_hot"]); ?>.gif"  /></td>
+    <td align="center"><img src="/Public/Admin/images/<?php echo ($v["is_on_sale"]); ?>.gif"  /></td>
+    <td align="center"><img src="/Public/Admin/images/<?php echo ($v["is_best"]); ?>.gif"  /></td>
+    <td align="center"><img src="/Public/Admin/images/<?php echo ($v["is_new"]); ?>.gif"  /></td>
+    <td align="center"><img src="/Public/Admin/images/<?php echo ($v["is_hot"]); ?>.gif"  /></td>
 
     <td align="center"><span >100</span></td>
         <td align="right"><span ><?php echo ($v["goods_number"]); ?></span></td>
         <td align="center">
-      <a href="#" target="_blank" title="查看"><img src="/bool/shop/Public/Admin/images/icon_view.gif" width="16" height="16" border="0" /></a>
-      <a href="#" title="编辑"><img src="/bool/shop/Public/Admin/images/icon_edit.gif" width="16" height="16" border="0" /></a>
-      <a href="#" title="复制"><img src="/bool/shop/Public/Admin/images/icon_copy.gif" width="16" height="16" border="0" /></a>
-      <a href="<?php echo U('admin/goods/del',array('goods_id'=>$v['goods_id']));?>"  title="回收站"><img src="/bool/shop/Public/Admin/images/icon_trash.gif" width="16" height="16" border="0" /></a>
-      <a href="#" title="货品列表"><img src="/bool/shop/Public/Admin/images/icon_docs.gif" width="16" height="16" border="0" /></a>          </td>
+      <a href="#" target="_blank" title="查看"><img src="/Public/Admin/images/icon_view.gif" width="16" height="16" border="0" /></a>
+      <a href="#" title="编辑"><img src="/Public/Admin/images/icon_edit.gif" width="16" height="16" border="0" /></a>
+      <a href="#" title="复制"><img src="/Public/Admin/images/icon_copy.gif" width="16" height="16" border="0" /></a>
+      <a href="<?php echo U('admin/goods/del',array('goods_id'=>$v['goods_id']));?>"  title="回收站"><img src="/Public/Admin/images/icon_trash.gif" width="16" height="16" border="0" /></a>
+      <a href="#" title="货品列表"><img src="/Public/Admin/images/icon_docs.gif" width="16" height="16" border="0" /></a>          </td>
   </tr><?php endforeach; endif; ?>
       </table>
 

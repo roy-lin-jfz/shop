@@ -5,8 +5,8 @@
 <title>ECSHOP 管理中心 - 添加新商品 </title>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href="/bool/shop/Public/Admin/css/general.css" rel="stylesheet" type="text/css" />
-<link href="/bool/shop/Public/Admin/css/main.css" rel="stylesheet" type="text/css" />
+<link href="/Public/Admin/css/general.css" rel="stylesheet" type="text/css" />
+<link href="/Public/Admin/css/main.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
 function charea(a) {
     var spans = ['general','detail','mix'];
@@ -53,7 +53,7 @@ function charea(a) {
           </tr>
           <tr>
             <td class="label">
-            <a href="#" title="点击此处查看提示信息"><img src="/bool/shop/Public/Admin/images/notice.gif" width="16" height="16" border="0" alt="点击此处查看提示信息"></a> 商品货号： </td>
+            <a href="#" title="点击此处查看提示信息"><img src="/Public/Admin/images/notice.gif" width="16" height="16" border="0" alt="点击此处查看提示信息"></a> 商品货号： </td>
             <td><input type="text" name="goods_sn" value="" size="20"  /><span id="goods_sn_notice"></span><br />
             <span class="notice-span" style="display:block"  id="noticeGoodsSN">如果您不输入商品货号，系统将自动生成一个唯一的货号。</span></td>
           </tr>
@@ -61,7 +61,7 @@ function charea(a) {
             <td class="label">商品分类：</td>
             <td><select name="cat_id"  >
               <?php if(is_array($catlist)): foreach($catlist as $key=>$cat): ?><option value="<?php echo ($cat["cat_id"]); ?>">
-                <?php $__FOR_START_10660__=0;$__FOR_END_10660__=$cat['lv'];for($i=$__FOR_START_10660__;$i < $__FOR_END_10660__;$i+=1){ ?>&nbsp;&nbsp;<?php } echo ($cat["cat_name"]); ?></option><?php endforeach; endif; ?>
+                <?php $__FOR_START_17240__=0;$__FOR_END_17240__=$cat['lv'];for($i=$__FOR_START_17240__;$i < $__FOR_END_17240__;$i+=1){ ?>&nbsp;&nbsp;<?php } echo ($cat["cat_name"]); ?></option><?php endforeach; endif; ?>
             </select>
              </td>
           </tr>
@@ -99,7 +99,7 @@ function charea(a) {
             <!-- <td><input type="text" name="goods_weight" value="" size="20" /> <select name="weight_unit"><option value="1" selected>千克</option><option value="0.001">克</option></select></td> -->
           </tr>
           <tr>
-            <td class="label"><a href="#" title="点击此处查看提示信息"><img src="/bool/shop/Public/Admin/images/notice.gif" width="16" height="16" border="0" alt="点击此处查看提示信息"></a> 商品库存数量：</td>
+            <td class="label"><a href="#" title="点击此处查看提示信息"><img src="/Public/Admin/images/notice.gif" width="16" height="16" border="0" alt="点击此处查看提示信息"></a> 商品库存数量：</td>
 
             <td><input type="text" name="goods_number" value="1" size="20" />
           </tr>
@@ -121,7 +121,7 @@ function charea(a) {
           </tr>
 <!--           <tr>
             <td class="label">
-            <a href="#" title="点击此处查看提示信息"><img src="/bool/shop/Public/Admin/images/notice.gif" width="16" height="16" border="0" alt="点击此处查看提示信息"></a> 商家备注： </td>
+            <a href="#" title="点击此处查看提示信息"><img src="/Public/Admin/images/notice.gif" width="16" height="16" border="0" alt="点击此处查看提示信息"></a> 商家备注： </td>
             <td><textarea name="seller_note" cols="40" rows="3"></textarea><br />
             <span class="notice-span" style="display:block"  id="noticeSellerNote">仅供商家自己看的信息</span></td>
           </tr> -->

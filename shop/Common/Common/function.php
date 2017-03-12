@@ -18,6 +18,12 @@ function che(){
     return jm(cookie('username').C('COO_KIE')) === cookie('key');
 }
 
+function adminche(){
+    // return 0;
+    // return C('COO_KIE');exit;
+    return jm(cookie('adminname').C('COO_KIE')) === cookie('adminkey');
+}
+
 function defined_gwc() {
     // echo cookie('gwc_num');
     if(cookie('gwc_num') != 0)

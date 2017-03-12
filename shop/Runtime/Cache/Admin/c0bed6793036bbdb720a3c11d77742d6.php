@@ -4,8 +4,8 @@
 <title>ECSHOP 管理中心</title>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href="/bool/shop/Public/Admin/css/general.css" rel="stylesheet" type="text/css" />
-<link href="/bool/shop/Public/Admin/css/main.css" rel="stylesheet" type="text/css" />
+<link href="/Public/Admin/css/general.css" rel="stylesheet" type="text/css" />
+<link href="/Public/Admin/css/main.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 
