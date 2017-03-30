@@ -8,7 +8,13 @@
   <div class="shipping_name">
 	 您的应付款金额为： <strong class="f1">￥{$money}元</strong><br>
 	</div>
- 	<p>现在，您可以 <a href="#">支付（未开通）</a> 或去 <a href="{:U('/')}">返回首页</a></p>
+	<form action="{:U('Home/order/pay')}" method="post" name="theForm" id="theForm" >
+	<div style="margin:8px auto;" align="center">
+		<input src="__PUBLIC__/Home/images/zhifu.png" type="image" style="width:170px; height:35px">
+		<input name="ord_sn" value="{$ord_sn}" type="hidden">
+	</div>
+	</form>
+	<p>现在，您可以 立即支付 </p>
 </div>
 </div>
 

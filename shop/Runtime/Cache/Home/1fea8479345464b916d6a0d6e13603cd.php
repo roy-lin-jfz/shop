@@ -17,7 +17,7 @@
 <div class="block1">
     <div class="site-bar"><font id="ECS_MEMBERZONE">
         <?php if(che()): ?>您好:<font color="red">
-                <b><?php echo (cookie('username')); ?></b></font>&nbsp;欢迎光临本店！
+                <b><a href="<?php echo U('Home/user/info');?>"><?php echo (cookie('username')); ?></a></b></font>&nbsp;欢迎光临本店！
                 | <a href="<?php echo U('Home/user/logout');?>">退出</a>
                 <?php else: ?>
                 <a href="<?php echo U('Home/user/login');?>" style="color:#50884b">登录</a> |
@@ -29,12 +29,12 @@
         <a href="./flow.php.htm"></a><a href="<?php echo U('Home/order/checkout');?>" title="查看购物车">购物车有
         <?php if(defined_gwc()): echo (cookie('gwc_num')); ?>
         <?php else: ?>0<?php endif; ?>
-        件</a>
+        件</a> |
          <a href="<?php echo U('Home/order/checkout');?>">查看购物车</a>
         <!-- <li style=" margin-top:0px;*margin-top:-2px;">|</li> -->
         <!-- <li> <a href="./pick_out.php.htm">选购中心</a> </li> -->
         |
-        <a href="" onclick="window.alert('请联系客服电话：400-8899-379')">帮助中心</a>
+          <a href="<?php echo U('Home/order/checkorder');?>">查看订单</a>
       </ul>
   </div></div>
 <div class="page-header clearfix">
@@ -83,7 +83,7 @@
 <div class="blank"></div>
 <form action="<?php echo U('Home/order/done');?>" method="post" name="theForm" id="theForm" >
 <div class="goodsTitle clearfix" style="background:#f6f6f6; border:#E3E3E3 solid 1px; border-bottom:none;">
-<span class="fl">商品列表</span><a  class="fr">修改</a></div>
+<span class="fl">商品列表</span></div>
 <table class="floatTable" align="center" bgcolor="#e3e3e3" border="0" cellpadding="5" cellspacing="1" width="100%">
 		<tbody><tr>
 			<th bgcolor="#ffffff">商品名称</th>
@@ -93,9 +93,9 @@
 			<th bgcolor="#ffffff">购买数量</th>
 			<th bgcolor="#ffffff">小计</th>
 			</tr>
-        <?php if(is_array($kache)): foreach($kache as $key=>$k): ?><tr>
+        <?php if(is_array($kache)): foreach($kache as $id=>$k): ?><tr>
 			<td align="center" bgcolor="#ffffff">
-				<a  target="_blank"><?php echo ($k['goods_name']); ?></a>
+				<a href="<?php echo U('Home/goods/goods',array('goods_id'=>$id));?>" target="_blank"><?php echo ($k['goods_name']); ?></a>
 			</td>
 			<!-- <td bgcolor="#ffffff">颜色:黑色 <br></td> -->
 						<td align="center" bgcolor="#ffffff">￥<?php echo ($k['market_price']); ?>元</td>
@@ -116,21 +116,21 @@
 		<tbody>
 		<tr>
 			<td bgcolor="#ffffff">收货人姓名:</td>
-			<td bgcolor="#ffffff"><input type="text" name="xm" /></td>
+			<td bgcolor="#ffffff"><input type="text" name="xm" value="<?php echo ($receiveinfo['name']); ?>"/></td>
 			<td bgcolor="#ffffff">电子邮件地址:</td>
-			<td bgcolor="#ffffff"><input type="text" name='' /></td>
+			<td bgcolor="#ffffff"><input type="text" name='email' value="<?php echo ($receiveinfo['email']); ?>"/></td>
 		</tr>
 		<tr>
 			<td bgcolor="#ffffff">手机:</td>
-			<td bgcolor="#ffffff"><input type="text" name="mobile" /></td>
+			<td bgcolor="#ffffff"><input type="text" name="mobile" value="<?php echo ($receiveinfo['mobile']); ?>"/></td>
 			<td bgcolor="#ffffff">邮政编码:</td>
-			<td bgcolor="#ffffff"><input type="text" name='' /></td>
+			<td bgcolor="#ffffff"><input type="text" name='' value="<?php echo ($receiveinfo['postcode']); ?>"/></td>
 		</tr>
 		<tr>
 			<td bgcolor="#ffffff">收货地址:</td>
-			<td bgcolor="#ffffff"><input type="text" name="address" /></td>
+			<td bgcolor="#ffffff"><input type="text" name="address" value="<?php echo ($receiveinfo['address']); ?>"/></td>
 			<td bgcolor="#ffffff">最佳送货时间:</td>
-			<td bgcolor="#ffffff"><input type="text" name='' /></td>
+			<td bgcolor="#ffffff"><input type="text" name='' value="<?php echo ($receiveinfo['receive_time']); ?>"/></td>
 		</tr>
 			</tbody></table>
 

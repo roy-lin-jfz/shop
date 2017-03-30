@@ -9,7 +9,7 @@
 <title>ECSHOP演示站 - </title>
 <link rel="shortcut icon" href="./favicon.ico">
 <link rel="icon" href="./animated_favicon.gif" type="image/gif">
-<link href="/shop/Public/Home/css/style.css" rel="stylesheet" type="text/css">
+<link href="/Public/Home/css/style.css" rel="stylesheet" type="text/css">
 <link rel="alternate" type="application/rss+xml" title="RSS|ECSHOP演示站 - " href="./feed.php">
 </head>
 <body>
@@ -26,35 +26,36 @@
 
     </font></div>
       <ul class="sitelinks">
-        <li><a href="./flow.php.htm"></a><a href="<?php echo U('Home/order/checkout');?>" title="查看购物车">购物车有 
+        <a href="./flow.php.htm"></a><a href="<?php echo U('Home/order/checkout');?>" title="查看购物车">购物车有
         <?php if(defined_gwc()): echo (cookie('gwc_num')); ?>
         <?php else: ?>0<?php endif; ?>
-        件</a></li>
-        <li> <a href="<?php echo U('Home/order/checkout');?>">查看购物车</a> </li>
+        件</a> |
+         <a href="<?php echo U('Home/order/checkout');?>">查看购物车</a>
         <!-- <li style=" margin-top:0px;*margin-top:-2px;">|</li> -->
         <!-- <li> <a href="./pick_out.php.htm">选购中心</a> </li> -->
-        <li style=" margin-top:0px;*margin-top:-2px;">|</li>
-        <li> <a href="" onclick="window.alert('请联系客服电话：400-8899-379')">帮助中心</a> </li>
+        |
+        <a href="" onclick="window.alert('请联系客服电话：400-8899-379')">帮助中心</a>
       </ul>
   </div></div>
 <div class="page-header clearfix">
   <div class="block1 clearfix" style="position:relative;">
-    <div class="logo fl"><a href="<?php echo U('/');?>" title=""><img src="/shop/Public/Home/images/logo.gif" width="311" height="55" alt=""></a></div>
+    <div class="logo fl">
+        <a href="<?php echo U('/');?>" title=""><img src="/Public/Home/images/logo.gif" width="311" height="55" alt=""></a></div>
     <div class="btMap">
       <div class="search ">
-        <form id="searchForm" name="searchForm" method="get" action="">
+        <form id="searchForm" name="searchForm" method="get" action="<?php echo U('Home/cat/select');?>">
           <div class="sideShadow"></div>
-          <input type="text" name="keywords" class="keyWord" value="" id="keyword" onclick="javascript:this.value=&#39;&#39;;this.style.color=&#39;#333333&#39;;">
+          <input type="text" name="keywords" class="keyWord" value="请输入关键字" id="keyword" onclick="javascript:this.value=&#39;&#39;;this.style.color=&#39;#333333&#39;;">
           <input type="submit" class="submit" value="">
         </form>
       </div>
       <div class="guanjianzi">
         <ul>
           <li>热门搜索：</li>
-          <li><a href="">大屏手机</a></li>
-          <li><a href="">智能机</a></li>
-          <li><a href="">茉莉花茶</a></li>
-          <li><a href="">龙井</a></li>
+          <li><a href="<?php echo U('Home/cat/select',array('keywords'=>'苹果6S'));?>">苹果6S</a></li>
+          <li><a href="<?php echo U('Home/cat/select',array('keywords'=>'耳机'));?>">耳机</a></li>
+          <li><a href="<?php echo U('Home/cat/select',array('keywords'=>'诺基亚'));?>">诺基亚</a></li>
+          <li><a href="<?php echo U('Home/cat/select',array('keywords'=>'三星'));?>">三星</a></li>
         </ul>
       </div>
       </div>
@@ -197,7 +198,7 @@
     </div>
   </div>
 </div>
-<div class="block tc" style=""> <img src="/shop/Public/Home/images/serviceImg1.jpg"> </div>
+<div class="block tc" style=""> <img src="/Public/Home/images/serviceImg1.jpg"> </div>
 <div class="block tc" style="margin-bottom:20px;">
   <a href="">免责条款</a>|
   <a href="">隐私保护</a>|

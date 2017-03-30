@@ -2,7 +2,7 @@
 namespace Home\Controller;
 use Think\Controller;
 class CatController extends Controller {
-    public function cat(){
+    public function cat(){//ID分类搜索
         //最近浏览
         $his = array_reverse(session('history'),true);
         $this->assign('his',$his);
@@ -17,7 +17,7 @@ class CatController extends Controller {
 
         $Page          = new \Think\Page($count,12);
         $show          = $Page->show();
-        $goodsList     = $goodsModel->field('goods_id,goods_name,shop_price,thumb_img,goods_img,market_price')->where($map)->limit($Page->firstRow.','.$Page->listRows)->select();
+        $goodsList     = $goodsModel->field('goods_id,goods_name,shop_price,thumb_img,goods_img,market_price')->where($map)->order('click_count desc, goods_id desc')->limit($Page->firstRow.','.$Page->listRows)->select();
         //导航栏
         $this->assign('mbx',mbx(I('cat_id')));
         //分页数据
@@ -31,7 +31,7 @@ class CatController extends Controller {
         $this->display();
     }
 
-    public function select(){
+    public function select(){//关键字搜索
         //最近浏览
         $his = array_reverse(session('history'),true);
         $this->assign('his',$his);
@@ -44,7 +44,7 @@ class CatController extends Controller {
         $count         = $goodsModel->where($map)->count();
         $Page          = new \Think\Page($count,12);
         $show          = $Page->show();
-        $goodsList     = $goodsModel->field('goods_id,goods_name,shop_price,thumb_img,goods_img,market_price')->where($map)->limit($Page->firstRow.','.$Page->listRows)->select();
+        $goodsList     = $goodsModel->field('goods_id,goods_name,shop_price,thumb_img,goods_img,market_price')->where($map)->order('click_count desc, goods_id desc')->limit($Page->firstRow.','.$Page->listRows)->select();
 //        show_bug($show);exit;
         //导航栏
         $this->assign('keywords',$keywords);

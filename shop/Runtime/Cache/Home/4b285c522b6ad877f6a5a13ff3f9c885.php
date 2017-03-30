@@ -17,7 +17,7 @@
 <div class="block1">
     <div class="site-bar"><font id="ECS_MEMBERZONE">
         <?php if(che()): ?>您好:<font color="red">
-                <b><?php echo (cookie('username')); ?></b></font>&nbsp;欢迎光临本店！
+                <b><a href="<?php echo U('Home/user/info');?>"><?php echo (cookie('username')); ?></a></b></font>&nbsp;欢迎光临本店！
                 | <a href="<?php echo U('Home/user/logout');?>">退出</a>
                 <?php else: ?>
                 <a href="<?php echo U('Home/user/login');?>" style="color:#50884b">登录</a> |
@@ -34,7 +34,7 @@
         <!-- <li style=" margin-top:0px;*margin-top:-2px;">|</li> -->
         <!-- <li> <a href="./pick_out.php.htm">选购中心</a> </li> -->
         |
-        <a href="" onclick="window.alert('请联系客服电话：400-8899-379')">帮助中心</a>
+          <a href="<?php echo U('Home/order/checkorder');?>">查看订单</a>
       </ul>
   </div></div>
 <div class="page-header clearfix">

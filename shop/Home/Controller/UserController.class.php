@@ -52,18 +52,76 @@ class UserController extends Controller {
         if(IS_POST){
             $userModel = D('User');
             if(!$userModel->create()){
-                echo $userModel->getError();
-                exit;
+                $msg = $userModel->getError();
+                $this->error("$msg",'',1);
             }
             $salt = salt();
             $userModel->password = md5($userModel->password.$salt);
             $userModel->salt = $salt;
             if($userModel->add())
-                $this->success('注册成功','login','1');
+                $this->success('注册成功','login',1);
             else
-                $this->success('注册失败','','1');
+                $this->success('注册失败','',1);
         }
         else
             $this->display();
+    }
+
+    //更新用户信息
+    public function update(){
+        if(IS_POST){
+            $userModel = D('User');
+            if(!$userModel->create()){
+                $msg = $userModel->getError();
+                $this->error("$msg",'',1);
+            }
+            $salt = salt();
+            $userModel->password = md5($userModel->password.$salt);
+            $userModel->salt = $salt;
+            $user_id = I('post.id');
+            $username=$userModel->username;
+
+            if($userModel->where("user_id = '{$user_id}'")->save()){
+                cookie('username',$username);
+                $coo_kie = jm($username.C('COO_KIE'));
+                cookie('key',$coo_kie);
+                $this->success('修改成功','info',1);
+            }
+            else
+                $this->success('修改失败','info',1);
+        }
+    }
+    
+    //用户信息
+    public function info(){
+        $userModel = D('User');
+        if(che()){
+            $userinfo = $userModel->where(array('username'=>cookie('username')))->find();
+            // show_bug($userinfo);
+        }
+        else {
+            $this->error('请登入后再添加信息',U('/Home/user/login'),1);
+        }
+        
+        if(IS_POST){
+            $receiveModel = D('Receive');
+            if(!$receiveModel->create()){
+                $msg = $receiveModel->getError();
+                $this->error("$msg",'',1);
+            }
+            $receiveModel->user_id = $userinfo['user_id'];
+            if($receiveModel->add())
+                $this->success('提交成功','','1');
+            else
+                $this->success('提交失败','','1');
+        }
+        else{
+            $receiveModel = D('Receive');
+            $this->assign('userinfo',$userinfo);
+            $receiveinfo = $receiveModel->where(array('user_id'=>$userinfo['user_id']))->find();
+            if($receiveinfo)
+                $this->assign('receiveinfo',$receiveinfo);
+            $this->display();
+        }
     }
 }

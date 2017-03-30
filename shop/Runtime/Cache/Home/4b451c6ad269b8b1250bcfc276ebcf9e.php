@@ -17,7 +17,7 @@
 <div class="block1">
     <div class="site-bar"><font id="ECS_MEMBERZONE">
         <?php if(che()): ?>您好:<font color="red">
-                <b><?php echo (cookie('username')); ?></b></font>&nbsp;欢迎光临本店！
+                <b><a href="<?php echo U('Home/user/info');?>"><?php echo (cookie('username')); ?></a></b></font>&nbsp;欢迎光临本店！
                 | <a href="<?php echo U('Home/user/logout');?>">退出</a>
                 <?php else: ?>
                 <a href="<?php echo U('Home/user/login');?>" style="color:#50884b">登录</a> |

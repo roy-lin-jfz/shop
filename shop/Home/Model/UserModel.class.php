@@ -9,5 +9,6 @@ class UserModel extends Model{
         array('password','6,32','密码最少6位数','1','length',3),
         array('repwd','password','两次密码不一致','1','confirm',3),
         array('username','','用户名已经存在了','1','unique',3),
+        array('phone','11','请输入正确的电话号码','1','length',3),
     );
 }

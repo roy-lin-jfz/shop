@@ -61,7 +61,7 @@ function charea(a) {
             <td class="label">商品分类：</td>
             <td><select name="cat_id"  >
               <?php if(is_array($catlist)): foreach($catlist as $key=>$cat): ?><option value="<?php echo ($cat["cat_id"]); ?>">
-                <?php $__FOR_START_17240__=0;$__FOR_END_17240__=$cat['lv'];for($i=$__FOR_START_17240__;$i < $__FOR_END_17240__;$i+=1){ ?>&nbsp;&nbsp;<?php } echo ($cat["cat_name"]); ?></option><?php endforeach; endif; ?>
+                <?php $__FOR_START_31611__=0;$__FOR_END_31611__=$cat['lv'];for($i=$__FOR_START_31611__;$i < $__FOR_END_31611__;$i+=1){ ?>&nbsp;&nbsp;<?php } echo ($cat["cat_name"]); ?></option><?php endforeach; endif; ?>
             </select>
              </td>
           </tr>

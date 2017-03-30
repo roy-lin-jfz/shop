@@ -1,0 +1,70 @@
+<include file="Public:head" />
+
+<div class="blank"></div>
+<div class="block2">
+    <div class="blank"></div>
+    <form action="{:U('Home/user/update')}" method="post" name="theForm" >
+        <div class="goodsTitle clearfix" style="background:#f6f6f6; border:#E3E3E3 solid 1px; border-bottom:none;">
+            <span class="fl">用户信息</span></div>
+        <table class="floatTable" align="center" bgcolor="#e3e3e3" border="0" cellpadding="5" cellspacing="1" width="100%">
+            <tbody>
+            <tr>
+                <td bgcolor="#ffffff">用户名:</td>
+                <td bgcolor="#ffffff"><input type="text" name="username" value="{$userinfo['username']}"/></td>
+            </tr>
+            <tr>
+                <td bgcolor="#ffffff">手机:</td>
+                <td bgcolor="#ffffff"><input type="text" name="phone" value="{$userinfo['phone']}"/></td>
+            </tr>
+            <tr>
+                <td bgcolor="#ffffff">电子邮件地址:</td>
+                <td bgcolor="#ffffff"><input type="text" name='email' value="{$userinfo['email']}" /></td>
+            </tr>
+            <tr>
+                <td bgcolor="#ffffff">密码:</td>
+                <td bgcolor="#ffffff"><input name="password" type="password" id="password1" class="inputBg"></td>
+            </tr>
+            <tr>
+                <td bgcolor="#ffffff">确认密码:</td>
+                <td bgcolor="#ffffff"><input name="repwd" type="password" id="conform_password" class="inputBg"></td>
+            </tr>
+            </tbody></table>
+        <div style="margin:8px auto;" align="center">
+            <input src="__PUBLIC__/Home/images/tijiao.png" type="image" style="width:170px; height:35px">
+            <input name="id" value="{$userinfo['user_id']}" type="hidden">
+        </div>
+    </form>
+    <form action="{:U('Home/user/info')}" method="post" name="theForm" id="theForm" >
+        <div class="goodsTitle clearfix" style="background:#f6f6f6; border:#E3E3E3 solid 1px; border-bottom:none;">
+            <span class="fl">收货人信息</span>
+        </div>
+        <table class="floatTable" align="center" bgcolor="#e3e3e3" border="0" cellpadding="5" cellspacing="1" width="100%">
+            <tbody>
+            <tr>
+                <td bgcolor="#ffffff">收货人姓名:</td>
+                <td bgcolor="#ffffff"><input type="text" name="name" value="{$receiveinfo['name']}"/></td>
+                <td bgcolor="#ffffff">电子邮件地址:</td>
+                <td bgcolor="#ffffff"><input type="text" name='email' value="{$receiveinfo['email']}"/></td>
+            </tr>
+            <tr>
+                <td bgcolor="#ffffff">手机:</td>
+                <td bgcolor="#ffffff"><input type="text" name="mobile" value="{$receiveinfo['mobile']}"/></td>
+                <td bgcolor="#ffffff">邮政编码:</td>
+                <td bgcolor="#ffffff"><input type="text" name='postcode' value="{$receiveinfo['postcode']}"/></td>
+            </tr>
+            <tr>
+                <td bgcolor="#ffffff">收货地址:</td>
+                <td bgcolor="#ffffff"><input type="text" name="address" value="{$receiveinfo['address']}"/></td>
+                <td bgcolor="#ffffff">最佳送货时间:</td>
+                <td bgcolor="#ffffff"><input type="text" name='receive_time' value="{$receiveinfo['receive_time']}"/></td>
+            </tr>
+            </tbody></table>
+
+        <div style="margin:8px auto;" align="center">
+            <input src="__PUBLIC__/Home/images/tijiao.png" type="image" style="width:170px; height:35px">
+            <!--<input name="money" value="{$shop_total}" type="hidden">-->
+        </div>
+    </form>
+</div>
+
+<include file="Public:foot" />

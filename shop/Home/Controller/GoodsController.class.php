@@ -27,13 +27,18 @@ class GoodsController extends Controller {
     public function goods(){
         $userModel = D('User');
         $goods = D('Admin/goods');
+        $goods_id = I('get.goods_id');
         if(che()) {
             $userinfo = $userModel->where(array('username'=>cookie(username)))->find();
             $this->assign('userinfo',$userinfo);
         }
-        $goodsinfo = $goods->find(I('get.goods_id'));
+        $goodsinfo = $goods->find($goods_id);
         if($goodsinfo){
             $history = history($goodsinfo);
+
+            //点击量加一
+            $data['click_count'] = $goodsinfo['click_count'] + 1;
+            $goods->where("goods_id = '{$goods_id}'")->save($data);
         }
         // 关联查询
         $commentinfo = $goods->relationGet('comment');

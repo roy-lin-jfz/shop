@@ -78,109 +78,71 @@
 
 
 
-
-	<div class="block1 clearfix">
-	<div class="ur_here blank">
-		当前位置: <a href="<?php echo U('/');?>">首页</a>
-    <?php if(is_array($mbx)): foreach($mbx as $key=>$m): ?><code>&gt;</code> <a href="<?php echo U('Home/cat/cat',array('cat_id'=>$m['cat_id']));?>"><?php echo ($m['cat_name']); ?></a><?php endforeach; endif; ?>
-	</div>  
-
-<!-- 左侧导航栏 -->
-  <div id="pageLeft" class="fl">
-	 <h1 style="background:url(/Public/Home/images/sdgg.gif) repeat-x; height:27px; line-height:27px; padding-left:10px;"><a href="<?php echo U('Home/cat/cat',array('cat_id'=>'0'));?>"><font style="color:#000; font-size:14px;">所有分类</font></a></h1>
-	<div class="mod1 mod2 blank" id="historybox">
-	<span class="lb"></span><span class="rb"></span>
-	<div class="cagegoryCon clearfix">
- 	  <?php if(is_array($cattree)): foreach($cattree as $key=>$root): if($root[lv] == 0): ?><dl>
-      <dt><a href="<?php echo U('Home/cat/cat',array('cat_id'=>$root[cat_id]));?>"><?php echo ($root[cat_name]); ?></a></dt>
-      <dd class="clearfix">
-        <?php if(is_array($cattree)): foreach($cattree as $key=>$son): if($root[cat_id] == $son[parent_id]): ?><p><a href="<?php echo U('Home/cat/cat',array('cat_id'=>$son[cat_id]));?>" title="$son[cat_name]" class="txtdot"><?php echo ($son[cat_name]); ?></a></p><?php endif; endforeach; endif; ?>
-       </dd>
-      </dl><?php endif; endforeach; endif; ?>
-	</div>
-	<div class="blank"></div>
-	</div>
-<!-- 	<h1 class="mod2tit" style="background:url(/Public/Home/images/sdgg.gif) repeat-x; height:27px; color:#000">销售排行</h1>
-	<div class="mod1 mod2 blank" id="topbox">
-	<span class="lb"></span><span class="rb"></span>
-	 <ul id="top10">
-		 	<li>
-			 <div class="first">
-			  <div class="fl">
-				<font style="color:#F00; font-weight:bold">1.</font> <a href="" title="">ECSHOP模板中心68ecs...</a>
-				</div>
-				<div class="fr"><b class="f1">￥68元</b></div>
-			 </div>
-			 <div class="last">
-			  <a href=""><img src="/Public/Home/images/3_thumb_G_1368081034405.jpg" alt="" align="left"></a>
-				<b class="f1">1。</b> <a href="" title=""><b>ECSHOP模板中心68ecs...</b></a><br>
-				本店售价：<b class="f1">￥68元</b><br>
-			 </div>
-			</li>
-		 </ul>
-</div> -->
-	 <h1 class="mod2tit" style="background:url(themes/68ecshop_hechafree/images/sdgg.gif) repeat-x; height:27px;"><font style="color:#000">浏览历史</font></h1>
-<div id="history_div">
-<div class="mod1 mod2 blank" id="topbox">
-  <span class="lb"></span><span class="rb"></span>
-   <ul id="top10">
-         <?php if(is_array($his)): foreach($his as $k=>$h): ?><li>
-       <div class="first">
-        <div class="fl">
-        <font style="color:#F00; font-weight:bold"></font> <a href="<?php echo U('Home/goods/goods/',array('goods_id'=>$k));?>" title=""><?php echo ($h['goods_name']); ?></a>
+<div class="blank"></div>
+<div class="block2">
+    <div class="blank"></div>
+    <form action="<?php echo U('Home/user/update');?>" method="post" name="theForm" >
+        <div class="goodsTitle clearfix" style="background:#f6f6f6; border:#E3E3E3 solid 1px; border-bottom:none;">
+            <span class="fl">用户信息</span></div>
+        <table class="floatTable" align="center" bgcolor="#e3e3e3" border="0" cellpadding="5" cellspacing="1" width="100%">
+            <tbody>
+            <tr>
+                <td bgcolor="#ffffff">用户名:</td>
+                <td bgcolor="#ffffff"><input type="text" name="username" value="<?php echo ($userinfo['username']); ?>"/></td>
+            </tr>
+            <tr>
+                <td bgcolor="#ffffff">手机:</td>
+                <td bgcolor="#ffffff"><input type="text" name="phone" value="<?php echo ($userinfo['phone']); ?>"/></td>
+            </tr>
+            <tr>
+                <td bgcolor="#ffffff">电子邮件地址:</td>
+                <td bgcolor="#ffffff"><input type="text" name='email' value="<?php echo ($userinfo['email']); ?>" /></td>
+            </tr>
+            <tr>
+                <td bgcolor="#ffffff">密码:</td>
+                <td bgcolor="#ffffff"><input name="password" type="password" id="password1" class="inputBg"></td>
+            </tr>
+            <tr>
+                <td bgcolor="#ffffff">确认密码:</td>
+                <td bgcolor="#ffffff"><input name="repwd" type="password" id="conform_password" class="inputBg"></td>
+            </tr>
+            </tbody></table>
+        <div style="margin:8px auto;" align="center">
+            <input src="/Public/Home/images/tijiao.png" type="image" style="width:170px; height:35px">
+            <input name="id" value="<?php echo ($userinfo['user_id']); ?>" type="hidden">
         </div>
-        <div class="fr"><b class="f1">￥<?php echo ($h['shop_price']); ?>元</b></div>
-       </div>
-      </li><?php endforeach; endif; ?>
-     </ul>
-</div>
-</div>
-	</div>
+    </form>
+    <form action="<?php echo U('Home/user/info');?>" method="post" name="theForm" id="theForm" >
+        <div class="goodsTitle clearfix" style="background:#f6f6f6; border:#E3E3E3 solid 1px; border-bottom:none;">
+            <span class="fl">收货人信息</span>
+        </div>
+        <table class="floatTable" align="center" bgcolor="#e3e3e3" border="0" cellpadding="5" cellspacing="1" width="100%">
+            <tbody>
+            <tr>
+                <td bgcolor="#ffffff">收货人姓名:</td>
+                <td bgcolor="#ffffff"><input type="text" name="name" value="<?php echo ($receiveinfo['name']); ?>"/></td>
+                <td bgcolor="#ffffff">电子邮件地址:</td>
+                <td bgcolor="#ffffff"><input type="text" name='email' value="<?php echo ($receiveinfo['email']); ?>"/></td>
+            </tr>
+            <tr>
+                <td bgcolor="#ffffff">手机:</td>
+                <td bgcolor="#ffffff"><input type="text" name="mobile" value="<?php echo ($receiveinfo['mobile']); ?>"/></td>
+                <td bgcolor="#ffffff">邮政编码:</td>
+                <td bgcolor="#ffffff"><input type="text" name='postcode' value="<?php echo ($receiveinfo['postcode']); ?>"/></td>
+            </tr>
+            <tr>
+                <td bgcolor="#ffffff">收货地址:</td>
+                <td bgcolor="#ffffff"><input type="text" name="address" value="<?php echo ($receiveinfo['address']); ?>"/></td>
+                <td bgcolor="#ffffff">最佳送货时间:</td>
+                <td bgcolor="#ffffff"><input type="text" name='receive_time' value="<?php echo ($receiveinfo['receive_time']); ?>"/></td>
+            </tr>
+            </tbody></table>
 
-  <!-- 商品列表 -->
-	<div id="pageRight" class="fr">
-	<div class="goodsTitle clearfix blank"> <span class="fl">商品列表</span>
-  <form method="GET" class="sort fr" name="listform">
-    <!--显示方式：-->
-    <!--<a href=""><img src="/Public/Home/images/display_mode_list.gif" alt=""></a>-->
-    <!--<a href=""><img src="/Public/Home/images/display_mode_grid_act.gif" alt=""></a>-->
-    <!--<a href=""><img src="/Public/Home/images/display_mode_text.gif" alt=""></a>&nbsp;&nbsp;-->
-    <!--<a href=""><img src="/Public/Home/images/goods_id_DESC.gif" alt="按上架时间排序"></a>-->
-    <!--<a href=""><img src="/Public/Home/images/shop_price_default.gif" alt="按价格排序"></a>-->
-    <!--<a href=""><img src="/Public/Home/images/last_update_default.gif" alt="按更新时间排序"></a>-->
-    <input type="hidden" name="category" value="1">
-    <input type="hidden" name="display" value="grid" id="display">
-    <input type="hidden" name="brand" value="0">
-    <input type="hidden" name="price_min" value="0">
-    <input type="hidden" name="price_max" value="0">
-    <input type="hidden" name="filter_attr" value="0">
-    <input type="hidden" name="page" value="1">
-    <input type="hidden" name="sort" value="goods_id">
-    <input type="hidden" name="order" value="DESC">
-  </form>
-</div>
-<div class="clearfix modContent">
-    <form name="compareForm" action="" method="post">
-        <div class="clearfix grid">
-            <?php if(is_array($goodslist)): foreach($goodslist as $key=>$g): ?><div class="goodsbox1" style="margin: 5px 9px 8px 8px;*margin:5px 6px 10px 14px;">
-                <div class="imgbox1"><a href="<?php echo U('Home/goods/goods',array('goods_id'=>$g['goods_id']));?>"><img src="<?php echo ($g[thumb_img]); ?>" alt="<?php echo ($g[goods_name]); ?>"></a></div>
-                <a href="<?php echo U('Home/goods/goods',array('goods_id'=>$g['goods_id']));?>" title="
-                <?php echo ($g[goods_name]); ?>"><?php echo ($g[goods_name]); ?></a><br>
-                <font class="market">￥<?php echo ($g['market_price']); ?>元</font>
-                <b class="f1">￥<?php echo ($g['shop_price']); ?>元</b><br>
-            </div><?php endforeach; endif; ?>
-
-    </div>
-      </form>
-</div>
-
-<div class="pagebar">
-<form name="selectPageForm" action="http://free.68ecshop.com/hechaw2013/category.php" method="get">
- <div id="pager">
-  总计 <b><?php echo ($count); ?></b>  个记录  <?php echo ($page); ?></div>
-</form>
-</div>
-	</div>
+        <div style="margin:8px auto;" align="center">
+            <input src="/Public/Home/images/tijiao.png" type="image" style="width:170px; height:35px">
+            <!--<input name="money" value="<?php echo ($shop_total); ?>" type="hidden">-->
+        </div>
+    </form>
 </div>
 
 <div class="pageFooter">
