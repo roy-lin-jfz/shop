@@ -12,7 +12,7 @@
     <foreach name="cattree" item='v'>
         <if condition="$v.lv eq 0">
       <dl>
-        <dt><a href="">{$v.cat_name}</a></dt>
+        <dt><a href="{:U('Home/cat/cat',array('cat_id'=>$v[cat_id]))}">{$v.cat_name}</a></dt>
         <dd class="clearfix">
             <foreach name="cattree" item="s">
                 <if condition="$v[cat_id] eq $s[parent_id]">

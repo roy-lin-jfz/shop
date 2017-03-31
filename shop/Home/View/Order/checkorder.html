@@ -8,12 +8,26 @@
             <span>
                 <td bgcolor="#ffffff">订单号: {$ord['ord_sn']}
 
-                    <if condition="$ord['paystatus'] eq 0">
-                        ---><a href="{:U('Home/order/pay',array('ord_sn'=>$ord['ord_sn']))}" style="color:#F00" >去支付</a>
+                    <if condition="($ord['paystatus'] eq 0)">
+                        <if condition="($ord['is_repeal'] eq 0)">
+                            ---><a href="{:U('Home/order/pay',array('ord_sn'=>$ord['ord_sn']))}" style="color:#F00" >去支付</a>
+                            ---><a href="{:U('Home/order/repeal',array('ord_sn'=>$ord['ord_sn']))}" style="color:#F00" >撤单</a>
+                        </if>
+                        <if condition="($ord['is_repeal'] eq 1)">
+                            （已撤单）
+                        </if>
                     </if>
 
                     <if condition="$ord['paystatus'] eq 1">
-                        （已支付）
+                        <if condition="($ord['is_finish'] eq 0)">
+                            （已支付）
+                        </if>
+                        <if condition="($ord['is_finish'] eq 1)">
+                            （已完成）
+                        </if>
+                        <if condition="($ord['is_send'] eq 1) AND ($ord['is_finish'] eq 0)">
+                            ---><a href="{:U('Home/order/finish',array('ord_sn'=>$ord['ord_sn']))}" style="color:#F00" >收货</a>
+                        </if>
                     </if>
 
                 </td>

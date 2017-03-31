@@ -88,7 +88,7 @@
 <span class="lb"></span><span class="rb"></span>
 <div class="cagegoryCon clearfix">
     <?php if(is_array($cattree)): foreach($cattree as $key=>$v): if($v["lv"] == 0): ?><dl>
-        <dt><a href=""><?php echo ($v["cat_name"]); ?></a></dt>
+        <dt><a href="<?php echo U('Home/cat/cat',array('cat_id'=>$v[cat_id]));?>"><?php echo ($v["cat_name"]); ?></a></dt>
         <dd class="clearfix">
             <?php if(is_array($cattree)): foreach($cattree as $key=>$s): if($v[cat_id] == $s[parent_id]): ?><p class=""><a href="<?php echo U('Home/cat/cat',array('cat_id'=>$s[cat_id]));?>" title="<?php echo ($s["cat_name"]); ?>" class="txtdot"><?php echo ($s["cat_name"]); ?></a></p><?php endif; endforeach; endif; ?>
 

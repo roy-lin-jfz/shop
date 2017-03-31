@@ -34,7 +34,7 @@
         <!-- <li style=" margin-top:0px;*margin-top:-2px;">|</li> -->
         <!-- <li> <a href="./pick_out.php.htm">选购中心</a> </li> -->
         |
-        <a href="" onclick="window.alert('请联系客服电话：400-8899-379')">帮助中心</a>
+          <a href="<?php echo U('Home/order/checkorder');?>">查看订单</a>
       </ul>
   </div></div>
 <div class="page-header clearfix">

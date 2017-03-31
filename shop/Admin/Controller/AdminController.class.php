@@ -10,17 +10,17 @@ class AdminController extends Controller {
             $code = I('post.yzm');
             $Verify = new \Think\Verify();
             if(!$Verify->check($code)){
-                $this->error('验证码错误','',1);
+                $this->error('验证码错误','login',1);
             }
             $adminModel = D('admin');
             $userinfo = $adminModel->where(array('username'=>$username))->find();
 
 //             show_bug($userinfo);
             if(!$userinfo){
-                $this->error('用户名错误','',1);
+                $this->error('用户名错误','login',1);
             }
             if($userinfo['password'] != $pwd){
-                $this->error('密码错误','',1);
+                $this->error('密码错误','login',1);
             }else {
                 cookie('adminname',$userinfo['username']);
                 $coo_kie = jm($userinfo['username'].C('COO_KIE'));

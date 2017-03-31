@@ -3,13 +3,19 @@ namespace Home\Controller;
 use Think\Controller;
 class CatController extends Controller {
     public function cat(){//ID分类搜索
+
+        $cat_id = I('cat_id');
+        if (!$cat_id) {
+            $this->redirect('home/index/index');
+        }
+
         //最近浏览
         $his = array_reverse(session('history'),true);
         $this->assign('his',$his);
 
         $goodsModel    = D('Admin/goods');
         //查找cat_id范围
-        $where_in      = implode(',' , findall(I('cat_id')));
+        $where_in      = implode(',' , findall($cat_id));
         $map['cat_id'] = array('in',$where_in);
         //分页s
         $count         = $goodsModel->where($map)->count();
@@ -19,7 +25,7 @@ class CatController extends Controller {
         $show          = $Page->show();
         $goodsList     = $goodsModel->field('goods_id,goods_name,shop_price,thumb_img,goods_img,market_price')->where($map)->order('click_count desc, goods_id desc')->limit($Page->firstRow.','.$Page->listRows)->select();
         //导航栏
-        $this->assign('mbx',mbx(I('cat_id')));
+        $this->assign('mbx',mbx($cat_id));
         //分页数据
         $this->assign('count',$count);
         $this->assign('page',$show);
@@ -28,6 +34,24 @@ class CatController extends Controller {
 
         $catModel = D('Admin/cat');
         $this->assign('cattree',$catModel->gettree());
+
+        //添加查询记录
+        $userModel = D('User');
+        if (che()) {
+            $userinfo = $userModel->where(array('username' => cookie('username')))->find();
+            // show_bug($userinfo);
+            $UsercatlogModel = D('Usercatlog');
+            $usercatlog = $UsercatlogModel->where(array('user_id' => $userinfo['user_id'], 'cat_id' => $cat_id))->order('ctime desc')->limit(1)->select();
+            if (empty($usercatlog) || time() - $usercatlog[0]['ctime'] > 60 * 60 * 24) {
+                //记录
+                $data['user_id'] = $userinfo['user_id'];
+                $data['cat_id'] = $cat_id;
+                $data['ctime'] = time();
+                if ($data['cat_id'] != 0)
+                    $UsercatlogModel->add($data);
+            }
+        }
+
         $this->display();
     }
 

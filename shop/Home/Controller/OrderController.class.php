@@ -97,4 +97,23 @@ class OrderController extends Controller {
             $this->success('您已经支付啦',U('/Home/order/checkorder'),1);
         }
     }
+
+    //撤单
+    public function repeal(){
+        $ordinfoModel = D('ordinfo');
+        $ordinfoModel->is_repeal = 1;
+        $ord_sn = I('ord_sn');
+        if($ordinfoModel->where("ord_sn = '{$ord_sn}'")->save()){
+            $this->success('您已经撤销啦',U('/Home/order/checkorder'),1);
+        }
+    }
+
+    public function finish(){
+        $ordinfoModel = D('ordinfo');
+        $ordinfoModel->is_finish = 1;
+        $ord_sn = I('ord_sn');
+        if($ordinfoModel->where("ord_sn = '{$ord_sn}'")->save()){
+            $this->success('成功收货咯',U('/Home/order/checkorder'),1);
+        }
+    }
 }
