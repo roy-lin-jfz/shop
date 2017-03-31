@@ -89,7 +89,8 @@
                             ---><a href="<?php echo U('Home/order/repeal',array('ord_sn'=>$ord['ord_sn']));?>" style="color:#F00" >撤单</a><?php endif; ?>
                         <?php if(($ord['is_repeal'] == 1)): ?>（已撤单）<?php endif; endif; ?>
 
-                    <?php if($ord['paystatus'] == 1): if(($ord['is_finish'] == 0)): ?>（已支付）<?php endif; ?>
+                    <?php if($ord['paystatus'] == 1): if(($ord['is_finish'] == 0)): if(($ord['is_send'] == 0)): ?>（已支付）<?php endif; ?>
+                            <?php if(($ord['is_send'] == 1)): ?>（已发货）<?php endif; endif; ?>
                         <?php if(($ord['is_finish'] == 1)): ?>（已完成）<?php endif; ?>
                         <?php if(($ord['is_send'] == 1) AND ($ord['is_finish'] == 0)): ?>---><a href="<?php echo U('Home/order/finish',array('ord_sn'=>$ord['ord_sn']));?>" style="color:#F00" >收货</a><?php endif; endif; ?>
 

@@ -134,11 +134,12 @@ body {
         </ul>
       </li>
 
- <!--  <li class="explode" key="04_order" name="menu">
+  <li class="explode" key="04_order" name="menu">
     订单管理        <ul>
-          <li class="menu-item"><a href="#" target="main-frame">订单列表</a></li>
+          <li class="menu-item"><a href="<?php echo U('/admin/order/checkorder',array('is_send'=>0));?>" target="main-frame">未发货订单</a></li>
+          <li class="menu-item"><a href="<?php echo U('/admin/order/checkorder',array('is_send'=>1));?>" target="main-frame">已发货订单</a></li>
         </ul>
-      </li> -->
+      </li>
 
 <!--   <li class="explode" key="04_order" name="menu">
     会员管理        <ul>

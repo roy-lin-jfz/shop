@@ -45,7 +45,7 @@ class GoodsController extends Controller {
                 }
             }
             // show_bug($goodsModel);exit;
-            echo $goodsModel->add()?'1':'0';
+            echo $goodsModel->add()?'添加商品成功':'添加商品失败';
             // $this->success('添加商品成功','',1);
         }
         $catModel = D('Cat');
