@@ -46,7 +46,12 @@ class IndexController extends Controller {
         //热销
         if(count($hot_login) < 4){
             $i = 4-count($hot_login);
-            $hot_nologin = $goodsModel->field('goods_id,goods_name,shop_price,thumb_img,goods_img,market_price')->where(array('is_on_sale'=>'1'))->where('is_hot=1')->order('click_count desc, goods_id desc')->limit('0,4')->select();
+            $hot_nologin = S('hot_nologin');
+            if(!$hot_nologin){
+                $hot_nologin = $goodsModel->field('goods_id,goods_name,shop_price,thumb_img,goods_img,market_price')->where(array('is_on_sale'=>'1'))->where('is_hot=1')->order('click_count desc, goods_id desc')->limit('0,4')->select();
+                //设置缓存
+                S('hot_nologin',$hot_nologin,86400);
+            }
             for($j = 0;$j<4;$j++){
                 if($i && !in_array($hot_nologin[$j],$hot_login)){
                     $hot_login[]=$hot_nologin[$j];
@@ -59,7 +64,11 @@ class IndexController extends Controller {
         //精品推荐
         if(count($best_login) < 4){
             $i = 4-count($best_login);
-            $best_nologin = $goodsModel->field('goods_id,goods_name,shop_price,thumb_img,goods_img,market_price')->where(array('is_on_sale'=>'1'))->where('is_best=1')->order('click_count desc, goods_id desc')->limit('0,4')->select();
+            $best_nologin = S('best_nologin');
+            if(!$best_nologin){
+                $best_nologin = $goodsModel->field('goods_id,goods_name,shop_price,thumb_img,goods_img,market_price')->where(array('is_on_sale'=>'1'))->where('is_best=1')->order('click_count desc, goods_id desc')->limit('0,4')->select();
+                S('best_nologin',$best_nologin,86400);
+            }
             for($j = 0;$j<4;$j++){
                 if($i && !in_array($best_nologin[$j],$best_login)){
                     $best_login[]=$best_nologin[$j];
@@ -72,7 +81,11 @@ class IndexController extends Controller {
         //新品上市
         if(count($new_login) < 4){
             $i = 4-count($new_login);
-            $new_nologin = $goodsModel->field('goods_id,goods_name,shop_price,thumb_img,goods_img,market_price')->where(array('is_on_sale'=>'1'))->where('is_new=1')->order('click_count desc, goods_id desc')->limit('0,4')->select();
+            $new_nologin = S('new_nologin');
+            if(!$new_nologin){
+                $new_nologin = $goodsModel->field('goods_id,goods_name,shop_price,thumb_img,goods_img,market_price')->where(array('is_on_sale'=>'1'))->where('is_new=1')->order('click_count desc, goods_id desc')->limit('0,4')->select();
+                S('new_nologin',$new_nologin,86400);
+            }
             for($j = 0;$j<4;$j++){
                 if($i && !in_array($new_nologin[$j],$new_login)){
                     $new_login[]=$new_nologin[$j];
