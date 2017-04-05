@@ -23,7 +23,7 @@ class CatController extends Controller {
 
         $Page          = new \Think\Page($count,12);
         $show          = $Page->show();
-        $goodsList     = $goodsModel->field('goods_id,goods_name,shop_price,thumb_img,goods_img,market_price')->where($map)->order('click_count desc, goods_id desc')->limit($Page->firstRow.','.$Page->listRows)->select();
+        $goodsList     = $goodsModel->field('goods_id,goods_name,shop_price,thumb_img,goods_img,market_price')->where(array('is_on_sale'=>'1'))->where($map)->order('click_count desc, goods_id desc')->limit($Page->firstRow.','.$Page->listRows)->select();
         //导航栏
         $this->assign('mbx',mbx($cat_id));
         //分页数据
@@ -68,7 +68,7 @@ class CatController extends Controller {
         $count         = $goodsModel->where($map)->count();
         $Page          = new \Think\Page($count,12);
         $show          = $Page->show();
-        $goodsList     = $goodsModel->field('goods_id,goods_name,shop_price,thumb_img,goods_img,market_price')->where($map)->order('click_count desc, goods_id desc')->limit($Page->firstRow.','.$Page->listRows)->select();
+        $goodsList     = $goodsModel->field('goods_id,goods_name,shop_price,thumb_img,goods_img,market_price')->where(array('is_on_sale'=>'1'))->where($map)->order('click_count desc, goods_id desc')->limit($Page->firstRow.','.$Page->listRows)->select();
 //        show_bug($show);exit;
         //导航栏
         $this->assign('keywords',$keywords);

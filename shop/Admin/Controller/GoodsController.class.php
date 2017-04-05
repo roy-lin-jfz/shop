@@ -74,6 +74,41 @@ class GoodsController extends Controller {
         $this->redirect('admin/goods/goodslist');
     }
 
+    public function goodsedit(){
+        $goodsModel = D('goods');
+        $goods_id = I('goods_id');
+        if(I('get.show')){
+            $list = $goodsModel->where(array('goods_id'=>$goods_id))->find();
+            $this->assign('list',$list);// 赋值数据集
+            $catModel = D('Cat');
+            $catlist = $catModel->gettree();
+            foreach ($catlist as $index=>$item){
+                if($item['cat_id'] == $list['cat_id'])  
+                    $catlist[$index]['selected'] = 1;
+            }
+            $this->assign('catlist',$catlist);
+            $this->display();
+        }else{
+            if(!$goodsModel->create($_POST)){
+                echo $goodsModel->getError();
+                exit;
+            }
+            if(!isset($goodsModel->is_best))
+                $goodsModel->is_best = 0;
+            if(!isset($goodsModel->is_new))
+                $goodsModel->is_new = 0;
+            if(!isset($goodsModel->is_hot))
+                $goodsModel->is_hot = 0;
+            if(!isset($goodsModel->is_on_sale))
+                $goodsModel->is_on_sale = 0;
+//show_bug($goodsModel);
+            // show_bug($goodsModel);exit;
+            echo $goodsModel->save()?'修改商品成功':'修改商品失败';
+            // $this->success('添加商品成功','',1);
+            $this->redirect('admin/goods/goodslist');
+        }
+    }
+
 
 
 }
