@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3f5c849-e302-438b-9af2-5377eb963897" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/Admin/View/Goods/goodsedit.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/Admin/Controller/GoodsController.class.php" afterPath="$PROJECT_DIR$/shop/Admin/Controller/GoodsController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/Admin/Model/GoodsModel.class.php" afterPath="$PROJECT_DIR$/shop/Admin/Model/GoodsModel.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/Admin/View/Goods/goodslist.html" afterPath="$PROJECT_DIR$/shop/Admin/View/Goods/goodslist.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/Admin/View/Index/main.html" afterPath="$PROJECT_DIR$/shop/Admin/View/Index/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/Home/Controller/CatController.class.php" afterPath="$PROJECT_DIR$/shop/Home/Controller/CatController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/Home/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/shop/Home/Controller/IndexController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/Runtime/Cache/Admin/68fbfd9a1f0104f3bba9a5e91757eaec.php" afterPath="$PROJECT_DIR$/shop/Runtime/Cache/Admin/68fbfd9a1f0104f3bba9a5e91757eaec.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/Runtime/Cache/Admin/7d5d3846fdb932219f1db1dc41255dd8.php" afterPath="$PROJECT_DIR$/shop/Runtime/Cache/Admin/7d5d3846fdb932219f1db1dc41255dd8.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/Runtime/Cache/Admin/c0bed6793036bbdb720a3c11d77742d6.php" afterPath="$PROJECT_DIR$/shop/Runtime/Cache/Admin/c0bed6793036bbdb720a3c11d77742d6.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/Runtime/Logs/Common/17_04_05.log" afterPath="$PROJECT_DIR$/shop/Runtime/Logs/Common/17_04_05.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/Runtime/Logs/Home/17_04_05.log" afterPath="$PROJECT_DIR$/shop/Runtime/Logs/Home/17_04_05.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/Runtime/Logs/Public/17_04_05.log" afterPath="$PROJECT_DIR$/shop/Runtime/Logs/Public/17_04_05.log" />
     </list>
     <ignored path="shop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,7 +74,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="goodsedit.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="goodsedit.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shop/Admin/View/Goods/goodsedit.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2740">
@@ -131,11 +124,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="checkorder.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="checkorder.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop/Admin/View/Order/checkorder.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="-754">
+              <caret line="20" column="65" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#foreach#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#if#0;n#if#0;n#if#1;n#td#0;n#span#0;n#div#0;n#foreach#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -525,18 +518,18 @@
       <workItem from="1489293643350" duration="10473000" />
       <workItem from="1489371710522" duration="43000" />
       <workItem from="1490838932108" duration="40833000" />
-      <workItem from="1491372434464" duration="7574000" />
+      <workItem from="1491372434464" duration="8224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63403000" />
+    <option name="totallyTimeSpent" value="64053000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2724359" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2724359" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -915,14 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop/Admin/View/Goods/goodsedit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2740">
-          <caret line="137" column="67" selection-start-line="137" selection-start-column="57" selection-end-line="137" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shop/Admin/View/Goods/goodsadd.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2160">
@@ -957,8 +942,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shop/Admin/View/Order/checkorder.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="-754">
+          <caret line="20" column="65" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
           <folding>
             <element signature="n#style#0;n#div#0;n#foreach#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#if#0;n#if#0;n#if#1;n#td#0;n#span#0;n#div#0;n#foreach#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -967,6 +952,14 @@
             <element signature="n#style#0;n#div#2;n#foreach#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#foreach#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Admin/View/Goods/goodsedit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2740">
+          <caret line="137" column="67" selection-start-line="137" selection-start-column="57" selection-end-line="137" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>
