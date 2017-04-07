@@ -55,7 +55,7 @@
     <th><a href="#">新品</a></th>
 
     <th><a href="#">热销</a></th>
-    <th><a href="#">推荐排序</a></th>
+    <th><a href="#">点击量</a></th>
         <th><a href="#">库存</a></th>
         <th>操作</th>
   <tr>
@@ -63,17 +63,17 @@
       <tr>
     <td><input type="checkbox" name="checkboxes[]" value="32" />{$v.goods_id}</td>
 
-    <td class="first-cell" style=""><span >{$v.goods_name}</span></td>
-    <td><span >{$v.goods_sn}</span></td>
-    <td align="right"><span >{$v.shop_price}
+    <td align="center" class="first-cell" style=""><span >{$v.goods_name}</span></td>
+    <td align="center" ><span >{$v.goods_sn}</span></td>
+    <td align="center"><span >{$v.shop_price}
     </span></td>
     <td align="center"><img src="__PUBLIC__/Admin/images/{$v.is_on_sale}.gif"  /></td>
     <td align="center"><img src="__PUBLIC__/Admin/images/{$v.is_best}.gif"  /></td>
     <td align="center"><img src="__PUBLIC__/Admin/images/{$v.is_new}.gif"  /></td>
     <td align="center"><img src="__PUBLIC__/Admin/images/{$v.is_hot}.gif"  /></td>
 
-    <td align="center"><span >100</span></td>
-        <td align="right"><span >{$v.goods_number}</span></td>
+    <td align="center"><span >{$v.click_count}</span></td>
+        <td align="center"><span >{$v.goods_number}</span></td>
         <td align="center">
       <a href="{:U('home/goods/goods',array('goods_id'=>$v['goods_id']))}" target="_blank" title="查看"><img src="__PUBLIC__/Admin/images/icon_view.gif" width="16" height="16" border="0" /></a>
       <a href="{:U('admin/goods/goodsedit',array('show'=>1,'goods_id'=>$v['goods_id']))}" title="编辑"><img src="__PUBLIC__/Admin/images/icon_edit.gif" width="16" height="16" border="0" /></a>

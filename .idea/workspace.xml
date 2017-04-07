@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c3f5c849-e302-438b-9af2-5377eb963897" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/Admin/Model/CatModel.class.php" afterPath="$PROJECT_DIR$/shop/Admin/Model/CatModel.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/Common/Conf/config.php" afterPath="$PROJECT_DIR$/shop/Common/Conf/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/Home/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/shop/Home/Controller/IndexController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/Runtime/Logs/Common/17_04_05.log" afterPath="$PROJECT_DIR$/shop/Runtime/Logs/Common/17_04_05.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/Runtime/Logs/Home/17_04_05.log" afterPath="$PROJECT_DIR$/shop/Runtime/Logs/Home/17_04_05.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/Runtime/Logs/Public/17_04_05.log" afterPath="$PROJECT_DIR$/shop/Runtime/Logs/Public/17_04_05.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/Admin/View/Goods/goodsedit.html" afterPath="$PROJECT_DIR$/shop/Admin/View/Goods/goodsedit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/Admin/View/Goods/goodslist.html" afterPath="$PROJECT_DIR$/shop/Admin/View/Goods/goodslist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/Runtime/Cache/Admin/68fbfd9a1f0104f3bba9a5e91757eaec.php" afterPath="$PROJECT_DIR$/shop/Runtime/Cache/Admin/68fbfd9a1f0104f3bba9a5e91757eaec.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/Runtime/Cache/Admin/78e0ff3b14418a2149b10395c774bb72.php" afterPath="$PROJECT_DIR$/shop/Runtime/Cache/Admin/78e0ff3b14418a2149b10395c774bb72.php" />
     </list>
     <ignored path="shop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="goodsedit.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="goodsedit.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shop/Admin/View/Goods/goodsedit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="820">
-              <caret line="137" column="67" selection-start-line="137" selection-start-column="57" selection-end-line="137" selection-end-column="67" />
+            <state relative-caret-position="1006">
+              <caret line="118" column="20" selection-start-line="118" selection-start-column="20" selection-end-line="118" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -80,38 +78,38 @@
       <file leaf-file-name="CatController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop/Home/Controller/CatController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1400">
-              <caret line="70" column="143" selection-start-line="70" selection-start-column="143" selection-end-line="70" selection-end-column="143" />
+            <state relative-caret-position="340">
+              <caret line="17" column="57" selection-start-line="16" selection-start-column="20" selection-end-line="17" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CatModel.class.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shop/Admin/Model/CatModel.class.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
+            <state relative-caret-position="540">
               <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="catelist.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop/Admin/View/Cat/catelist.html">
+      <file leaf-file-name="goodslist.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop/Admin/View/Goods/goodslist.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="40" column="70" selection-start-line="40" selection-start-column="70" selection-end-line="40" selection-end-column="70" />
+            <state relative-caret-position="460">
+              <caret line="74" column="45" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cateadd.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop/Admin/View/Cat/cateadd.html">
+      <file leaf-file-name="CatModel.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop/Admin/Model/CatModel.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="160">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -186,16 +184,16 @@
         <option value="$PROJECT_DIR$/shop/Admin/Controller/OrderController.class.php" />
         <option value="$PROJECT_DIR$/shop/Admin/View/Cat/catelist.html" />
         <option value="$PROJECT_DIR$/shop/Admin/View/Goods/goodsadd.html" />
-        <option value="$PROJECT_DIR$/shop/Admin/View/Goods/goodsedit.html" />
         <option value="$PROJECT_DIR$/shop/Admin/Controller/CatController.class.php" />
         <option value="$PROJECT_DIR$/shop/Admin/Model/GoodsModel.class.php" />
         <option value="$PROJECT_DIR$/shop/Admin/Controller/GoodsController.class.php" />
         <option value="$PROJECT_DIR$/shop/Home/Controller/CatController.class.php" />
-        <option value="$PROJECT_DIR$/shop/Admin/View/Goods/goodslist.html" />
         <option value="$PROJECT_DIR$/shop/Admin/View/Index/main.html" />
         <option value="$PROJECT_DIR$/shop/Common/Conf/config.php" />
         <option value="$PROJECT_DIR$/shop/Home/Controller/IndexController.class.php" />
         <option value="$PROJECT_DIR$/shop/Admin/Model/CatModel.class.php" />
+        <option value="$PROJECT_DIR$/shop/Admin/View/Goods/goodslist.html" />
+        <option value="$PROJECT_DIR$/shop/Admin/View/Goods/goodsedit.html" />
       </list>
     </option>
   </component>
@@ -240,6 +238,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -286,7 +286,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Home" />
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -304,11 +308,15 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Home" />
+              <option name="myItemId" value="Admin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Goods" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -326,7 +334,25 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Home" />
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -348,69 +374,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Conf" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Common" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Common" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Common" />
+              <option name="myItemId" value="Admin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -435,55 +399,13 @@
               <option name="myItemId" value="Admin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
+              <option name="myItemId" value="Common" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -543,18 +465,20 @@
       <workItem from="1489371710522" duration="43000" />
       <workItem from="1490838932108" duration="40833000" />
       <workItem from="1491372434464" duration="8224000" />
-      <workItem from="1491386781497" duration="1598000" />
+      <workItem from="1491386781497" duration="2683000" />
+      <workItem from="1491449020218" duration="637000" />
+      <workItem from="1491544157337" duration="447000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65651000" />
+    <option name="totallyTimeSpent" value="67820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27564102" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2820513" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -589,13 +513,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shop/Home/View/Public/foot.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="70" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shop/Public/Home/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
@@ -712,7 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3400">
           <caret line="170" column="0" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -734,7 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6964">
           <caret line="299" column="20" selection-start-line="299" selection-start-column="20" selection-end-line="299" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -749,7 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -757,7 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="1349" column="9" selection-start-line="1349" selection-start-column="9" selection-end-line="1349" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -842,7 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="80" column="67" selection-start-line="80" selection-start-column="39" selection-end-line="80" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -850,7 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -858,7 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2580">
           <caret line="129" column="9" selection-start-line="129" selection-start-column="9" selection-end-line="129" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -866,15 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2900">
           <caret line="145" column="46" selection-start-line="145" selection-start-column="46" selection-end-line="145" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/Admin/View/Goods/goodslist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -882,7 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2160">
           <caret line="108" column="40" selection-start-line="108" selection-start-column="40" selection-end-line="108" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -890,7 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="800">
           <caret line="40" column="70" selection-start-line="40" selection-start-column="70" selection-end-line="40" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -925,30 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop/Admin/View/Goods/goodsedit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="137" column="67" selection-start-line="137" selection-start-column="57" selection-end-line="137" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/Home/Controller/GoodsController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/Home/Controller/CatController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1400">
-          <caret line="70" column="143" selection-start-line="70" selection-start-column="143" selection-end-line="70" selection-end-column="143" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shop/Common/Conf/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -965,10 +840,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop/Admin/Model/CatModel.class.php">
+    <entry file="file://$PROJECT_DIR$/shop/Home/Controller/GoodsController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="700">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Admin/Model/CatModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Home/Controller/CatController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="57" selection-start-line="16" selection-start-column="20" selection-end-line="17" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
           <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Admin/View/Goods/goodslist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="74" column="45" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/Admin/View/Goods/goodsedit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1006">
+          <caret line="118" column="20" selection-start-line="118" selection-start-column="20" selection-end-line="118" selection-end-column="20" />
           <folding />
         </state>
       </provider>

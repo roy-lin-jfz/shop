@@ -55,24 +55,24 @@
     <th><a href="#">新品</a></th>
 
     <th><a href="#">热销</a></th>
-    <th><a href="#">推荐排序</a></th>
+    <th><a href="#">点击量</a></th>
         <th><a href="#">库存</a></th>
         <th>操作</th>
   <tr>
       <?php if(is_array($list)): foreach($list as $key=>$v): ?><tr>
     <td><input type="checkbox" name="checkboxes[]" value="32" /><?php echo ($v["goods_id"]); ?></td>
 
-    <td class="first-cell" style=""><span ><?php echo ($v["goods_name"]); ?></span></td>
-    <td><span ><?php echo ($v["goods_sn"]); ?></span></td>
-    <td align="right"><span ><?php echo ($v["shop_price"]); ?>
+    <td align="center" class="first-cell" style=""><span ><?php echo ($v["goods_name"]); ?></span></td>
+    <td align="center" ><span ><?php echo ($v["goods_sn"]); ?></span></td>
+    <td align="center"><span ><?php echo ($v["shop_price"]); ?>
     </span></td>
     <td align="center"><img src="/Public/Admin/images/<?php echo ($v["is_on_sale"]); ?>.gif"  /></td>
     <td align="center"><img src="/Public/Admin/images/<?php echo ($v["is_best"]); ?>.gif"  /></td>
     <td align="center"><img src="/Public/Admin/images/<?php echo ($v["is_new"]); ?>.gif"  /></td>
     <td align="center"><img src="/Public/Admin/images/<?php echo ($v["is_hot"]); ?>.gif"  /></td>
 
-    <td align="center"><span >100</span></td>
-        <td align="right"><span ><?php echo ($v["goods_number"]); ?></span></td>
+    <td align="center"><span ><?php echo ($v["click_count"]); ?></span></td>
+        <td align="center"><span ><?php echo ($v["goods_number"]); ?></span></td>
         <td align="center">
       <a href="<?php echo U('home/goods/goods',array('goods_id'=>$v['goods_id']));?>" target="_blank" title="查看"><img src="/Public/Admin/images/icon_view.gif" width="16" height="16" border="0" /></a>
       <a href="<?php echo U('admin/goods/goodsedit',array('show'=>1,'goods_id'=>$v['goods_id']));?>" title="编辑"><img src="/Public/Admin/images/icon_edit.gif" width="16" height="16" border="0" /></a>

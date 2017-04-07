@@ -61,10 +61,10 @@
                     <td class="label">商品分类：</td>
                     <td><select name="cat_id"  >
                         <?php if(is_array($catlist)): foreach($catlist as $key=>$cat): if($cat["selected"] == 1): ?><option value="<?php echo ($cat["cat_id"]); ?>" selected = "selected">
-                                    <?php $__FOR_START_26452__=0;$__FOR_END_26452__=$cat['lv'];for($i=$__FOR_START_26452__;$i < $__FOR_END_26452__;$i+=1){ ?>&nbsp;&nbsp;<?php } echo ($cat["cat_name"]); ?></option>
+                                    <?php $__FOR_START_29647__=0;$__FOR_END_29647__=$cat['lv'];for($i=$__FOR_START_29647__;$i < $__FOR_END_29647__;$i+=1){ ?>&nbsp;&nbsp;<?php } echo ($cat["cat_name"]); ?></option>
                                 <?php else: ?>
                                 <option value="<?php echo ($cat["cat_id"]); ?>">
-                                    <?php $__FOR_START_18173__=0;$__FOR_END_18173__=$cat['lv'];for($i=$__FOR_START_18173__;$i < $__FOR_END_18173__;$i+=1){ ?>&nbsp;&nbsp;<?php } echo ($cat["cat_name"]); ?></option><?php endif; endforeach; endif; ?>
+                                    <?php $__FOR_START_4444__=0;$__FOR_END_4444__=$cat['lv'];for($i=$__FOR_START_4444__;$i < $__FOR_END_4444__;$i+=1){ ?>&nbsp;&nbsp;<?php } echo ($cat["cat_name"]); ?></option><?php endif; endforeach; endif; ?>
                     </select>;
                     </td>
                 </tr>
@@ -105,6 +105,11 @@
                     <td class="label"><a href="#" title="点击此处查看提示信息"><img src="/Public/Admin/images/notice.gif" width="16" height="16" border="0" alt="点击此处查看提示信息"></a> 商品库存数量：</td>
 
                     <td><input type="text" name="goods_number" value="<?php echo ($list['goods_number']); ?>" size="20" />
+                </tr>
+                <tr>
+                    <td class="label">点击量：</td>
+                    <td><input type="text" name="click_count" value="<?php echo ($list['click_count']); ?>" size="20" /> 次
+                    </td>
                 </tr>
                 <tr>
                     <td class="label">加入推荐：</td>
