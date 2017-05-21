@@ -10,6 +10,9 @@ class CatController extends Controller {
                 $this->redirect('admin/cat/catelist');exit;
             }
         }
+        $catModel = D('cat');
+        $cat = $catModel->where('parent_id = 0')->select();
+        $this->assign('cat',$cat);
         $this->display();
     }
     public function catelist(){
